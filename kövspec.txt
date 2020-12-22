@@ -1,3 +1,4 @@
 Követelmény specifikáció
 
 1.Bevezetés
+Ebben a  Python Kivy platformon keresztül egy Kalkulátort szeretnénk létrehozni , az 4 alap műveleteken kívül még hatványozás és logaritmus számítás szeretnénk belerakni. A rendszer kinézete Windows Calculátorhoz hasonló lesz. 
