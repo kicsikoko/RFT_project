@@ -1,6 +1,11 @@
 Követelmény specifikáció
 
-1.Bevezetés
-Az alkalmazás a JAVA nyelvben íródik a NetBeans platform segítségével.
-Egy kalkulátort szeretnénk létrehozni, mely a 4 alap műveleten kívül még százalék számítást szeretnénk megvalósítani.
-A rendszer kinézete Windows Calculátorhoz hasonló lesz. 
+1.Áttekintés
+
+Az alkalmazás JAVA nyelvben íródik és a NetBeans 8.2 verziójú fejlesztőkörnyezetnek a segítségével készül.
+Egy kalkulátort szeretnénk létrehozni, mely a 4 alap műveleten kívül még százalék számítást tud számítani.
+A rendszer kinézete Windows Calculátorhoz hasonló lesz. Későbbiekben szeretnénk androidos alkalmazást is
+fejleszteni.
+
+2. Jelenlegi helyzet leírása
+
