@@ -4,6 +4,18 @@ A rendszer használható számítógépen is, és a későbbiekben Androidos esz
 
 2. Projektterv
 
+a, Követelmény specifikáció:
+	Szereplők: egész csapat
+	Prioritás: 0, 
+	Becslés: 1 óra
+	Eltelt idő: 2óra
+
+b, Funkcionális specifikáció:
+	Szereplők: egész csapat
+	Prioritás: 0
+	Becslés: 1 óra
+	Eltelt idő: 1 óra
+
 3. Üzleti folyamatok modellje
 
 4. Követelmények
