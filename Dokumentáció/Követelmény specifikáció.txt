@@ -19,6 +19,8 @@ számológépekhez.
 
 
 6. Jelenlegi üzleti folyamatok modellje
+A programunkkal szeretnénk segíteni a diákoknak, hogy könnyebben megvalósíthassák a
+négy alapműveletet, illetve a százalék műveletét.
 
 
 7. Igényelt üzleti folyamatok
