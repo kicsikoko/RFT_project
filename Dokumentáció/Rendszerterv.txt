@@ -32,6 +32,10 @@ Fejlesztői eszközök:
 9. Adatbázis terv
 
 10.Implementációs terv
+A felület Java nyelven fog készülni a NetBeans 8.2 környezet segítségével.
+Egy panelen helyezzük el a szükséges gombokat(Button) illetve a beviteli mezőt(Label).
+A gombok illetve a panel dizájnját elkészítjük.
+A gombokhoz Action-t adunk ami azt fogja megmondani, hogy az adott gomb lenyomására mi történjen.
 
 11.Tesztterv
 
