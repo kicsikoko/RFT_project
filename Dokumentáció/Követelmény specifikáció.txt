@@ -23,6 +23,9 @@ számológépekhez.
 7. Igényelt üzleti folyamatok
 
 8. Követelménylista (KÖTELEZŐ!)
+Stabil működés minden esetben
+Egyszerű használhatóság
+Felhasználóbarát
 Összeadás művelete
 Kivonás művelete
 Szorzás művelete
