@@ -20,8 +20,8 @@ Ezt még kiegészítettük százalék számítással is.
 
 7. Igényelt üzleti folyamatok
 
-8. Követelménylista (KÖTELEZŐ!)
+8. Követelménylista
 
 9. Riportok
-
+asdesafafaf
 10. Fogalomtár
