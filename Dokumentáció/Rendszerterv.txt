@@ -81,7 +81,7 @@ Ha a gombok Action-jét befejeztük egy tesztet hajtunk végre, hogy működik-e
 Ha webes felületről(Google Chrome, Opera, Safari stb) szeretné letölteni akkor,akkor nem szükséges más illesztő
 program. 
 Ellenkező esetben ha Androidos vagy IOS platformról szeretné letölteni akkor a megfelelő "Store"-ból
-(Play áruház,App store) engedélyezi és letölti. Továbbá ha nem ezeket az áruházakat akarja használni akkor,
+(Play áruház,App store) engedélyezi és letölti. Továbbá ha nem ezeket az áruházakat akarja használni,
 akkor engedélyezni kell önnek  "Harmadik féltől származó tartalmakat" a beállításoknál. A harmadik opció pedig hogy a "XYZ.apk"
 kiterjesztésű elemet a készülékre rakja majd futassa.   
 
