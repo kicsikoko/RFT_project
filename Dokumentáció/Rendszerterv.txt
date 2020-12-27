@@ -70,3 +70,5 @@ Ha a gombok Action-jét befejeztük egy tesztet hajtunk végre, hogy működik-e
 12.Telepítési terv
 
 13.Karbantartási terv
+A felhasználók hiba jelentéseit folyamatosan figyeljük és javításokat adunk ki.
+Egy éven belül új műveleteket, funkciókat szeretnénk adni a számológéphez.
