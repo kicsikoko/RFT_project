@@ -14,14 +14,15 @@ Rendszerszereplők:
 
 Rendszerhasználati esetek és lefutásaik:
 	Felhasználó:
-		
+		Képes ki/be kapcsolni a számológépet.
+		Képes elvégezni rajta a 4 alapműveletet és a százalékszámítást.	
 
 6. Fizikai környezet
 Az alkalmazás windows platformra készül, majd továbbá szeretnénk android készülékre is fejleszteni.
 Fejlesztői eszközök:
 	-GitHub
 	-Notepad++ 
-	-NetBains
+	-NetBeans 8.2 RC
 	-Trello
 
 7. Absztrakt domain modell
