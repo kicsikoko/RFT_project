@@ -38,3 +38,10 @@ Százalék művelet(maradékos osztás)
 A megrendelő olyan számológépet szeretett volna, mellyel megkönnyíti a mindennapi életét, hiszen legtöbbször
 a 4 alapműveleten kívül a százalékszámítást használja. Ehhez fogjuk elkészíteni az egyszerű számológépünket.
 10. Fogalomtár
+Összeadás művelete: A két megadott szám összege
+Kivonás művelete: A megadott számok közötti különbség
+Szorzás művelete: A két megadott szám szorzata
+Osztás művelete: A két megadott szám hányadosa
+Százalék művelete: A megadott érték századértéke
+Egyenlőség művelete: A műveletek után kapott eredmény
+Törlés művelete: 
