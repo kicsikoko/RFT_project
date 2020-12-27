@@ -68,6 +68,12 @@ Alfa teszt:
 Ha a gombok Action-jét befejeztük egy tesztet hajtunk végre, hogy működik-e minden rendesen.
 
 12.Telepítési terv
+Ha webes felületről(Google Chrome, Opera, Safari stb) szeretné letölteni akkor,akkor nem szükséges más illesztő
+program. 
+Ellenkező esetben ha Androidos vagy IOS platformról szeretné letölteni akkor a megfelelő "Store"-ból
+(Play áruház,App store) engedélyezi és letölti. Továbbá ha nem ezeket az áruházakat akarja használni akkor,
+akkor engedélyezni kell önnek  "Harmadik féltől származó tartalmakat" a beállításoknál. A harmadik opció pedig hogy a "XYZ.apk"
+kiterjesztésű elemet a készülékre rakja majd futassa.   
 
 13.Karbantartási terv
 A felhasználók hiba jelentéseit folyamatosan figyeljük és javításokat adunk ki.
