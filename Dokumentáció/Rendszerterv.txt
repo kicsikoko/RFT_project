@@ -9,6 +9,12 @@
 5. Funkcionális terv
 
 6. Fizikai környezet
+Az alkalmazás windows platformra készül, majd továbbá szeretnénk android készülékre is fejleszteni.
+Fejlesztői eszközök:
+	-GitHub
+	-Notepad++ 
+	-NetBains
+	-Trello
 
 7. Absztrakt domain modell
 
