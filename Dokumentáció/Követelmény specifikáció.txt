@@ -8,6 +8,7 @@ Ezért gondoltunk arra, hogy készítünk egy számológépet a Java programnyel
 megkönnyítsük a fiatalok helyzetét. Azért választottuk a Java nyelvet, mert az platformfüggetlen.
 
 3. Vágyálom rendszer
+A projektünk célja ,hogy egy olyan számológépet hozzunk létre amely a 4 alapvető műveleten kívül pluszban egy rövid százalékszítás funkciót is kapjon. Továbbá rendszerünknek lesz egy látványos , színes felülelte hogy felketse a felhasználók érdeklődését.
 
 4. Funkcionális követelmények
 
