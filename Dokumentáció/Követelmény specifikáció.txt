@@ -11,8 +11,6 @@ Ezért gondoltunk arra, hogy készítünk egy számológépet a Java programnyel
 megkönnyítsük a fiatalok helyzetét. Azért választottuk a Java nyelvet, mert az platformfüggetlen.
 
 3. Vágyálom rendszer
-Projektünk célja , hogy egy olyan számológépet hozzunk létre amely segítségével négy alapműveleten kívül plusszban 
-egy százalékszámitás is segítse a felhasználónak. Továbbá látványos színes felhasználói felületet készétünk, ami könyebben felhívja a felhasználó figyelmét.
 
 4. Funkcionális követelmények
 A program 4 alapműveletettel van segítségünkre, amely az összeadás, kivonás, szorzás és osztást.
@@ -42,6 +40,7 @@ Százalék művelet(maradékos osztás)
 9. Riportok
 A megrendelő olyan számológépet szeretett volna, mellyel megkönnyíti a mindennapi életét, hiszen legtöbbször
 a 4 alapműveleten kívül a százalékszámítást használja. Ehhez fogjuk elkészíteni az egyszerű számológépünket.
+
 10. Fogalomtár
 Összeadás művelete: A két megadott szám összege
 Kivonás művelete: A megadott számok közötti különbség
