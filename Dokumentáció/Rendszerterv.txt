@@ -6,7 +6,7 @@ A rendszer használható számítógépen is, és a későbbiekben Androidos esz
 
 a, Követelmény specifikáció:
 	Szereplők: egész csapat
-	Prioritás: 0, 
+	Prioritás: 0
 	Becslés: 1 óra
 	Eltelt idő: 2óra
 
