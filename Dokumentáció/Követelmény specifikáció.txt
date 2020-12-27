@@ -21,7 +21,7 @@ Ezt még kiegészítettük százalék számítással és ki/be kapcsolással is,
 számológépekhez.
 
 5. Rendszerre vonatkozó törvények, szabványok, ajánlások
-
+A szoftver licencét megszerezte, annak tulajdonjogát nem.Önnek ezt a szoftvert csak akkor áll jogában használni, ha megfelelő licenccel rendelkezik és a szoftvert egy eredeti termékkulccsal vagy más megengedett módon megfelelően aktiválta.A sikeres aktiválás nem jelenti annak megerősítését, hogy az adott szoftver eredeti, vagy hogy megfelelően van licencelve. 
 
 6. Jelenlegi üzleti folyamatok modellje
 A programunkkal szeretnénk segíteni a diákoknak, hogy könnyebben megvalósíthassák a
