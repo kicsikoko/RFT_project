@@ -45,6 +45,10 @@ A gombok illetve a panel dizájnját elkészítjük.
 A gombokhoz Action-t adunk ami azt fogja megmondani, hogy az adott gomb lenyomására mi történjen.
 
 11.Tesztterv
+Unit teszt:
+Minden gomb Action-jének a megírása után le teszteljük, hogy megfelelően működik-e.
+Alfa teszt:
+Ha a gombok Action-jét befejeztük egy tesztet hajtunk végre, hogy működik-e minden rendesen.
 
 12.Telepítési terv
 
