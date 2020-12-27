@@ -1,4 +1,6 @@
 1. A rendszer célja
+A rendszer célja, hogy a mai fiataloknak segítsen az alapvető számolási műveletek elvégzésében.
+A rendszer használható számítógépen is, és a későbbiekben Androidos eszközökön is.
 
 2. Projektterv
 
@@ -7,6 +9,12 @@
 4. Követelmények
 
 5. Funkcionális terv
+Rendszerszereplők:
+	Felhasználó
+
+Rendszerhasználati esetek és lefutásaik:
+	Felhasználó:
+		
 
 6. Fizikai környezet
 
