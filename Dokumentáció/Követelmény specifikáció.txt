@@ -11,6 +11,9 @@ megkönnyítsük a fiatalok helyzetét. Azért választottuk a Java nyelvet, mer
 
 4. Funkcionális követelmények
 
+A program 4 alapműveletettel van segítségünkre, amely az összeadás, kivonás, szorzás és osztást.
+Ezt még kiegészítettük százalék számítással is.
+
 5. Rendszerre vonatkozó törvények, szabványok, ajánlások
 
 6. Jelenlegi üzleti folyamatok modellje
