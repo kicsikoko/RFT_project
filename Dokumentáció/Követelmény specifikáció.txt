@@ -17,7 +17,7 @@ megkönnyítsük a fiatalok helyzetét. Azért választottuk a Java nyelvet, mer
 
 7. Igényelt üzleti folyamatok
 
-8. Követelménylista (KÖTELEZŐ!)
+8. Követelménylista
 
 9. Riportok
 
