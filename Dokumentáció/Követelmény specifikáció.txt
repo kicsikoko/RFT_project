@@ -35,5 +35,6 @@ Osztás művelete
 Százalék művelet(maradékos osztás)
 
 9. Riportok
-asdesafafaf
+A megrendelő olyan számológépet szeretett volna, mellyel megkönnyíti a mindennapi életét, hiszen legtöbbször
+a 4 alapműveleten kívül a százalékszámítást használja. Ehhez fogjuk elkészíteni az egyszerű számológépünket.
 10. Fogalomtár
