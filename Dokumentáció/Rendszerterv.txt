@@ -15,6 +15,12 @@ b, Funkcionális specifikáció:
 	Prioritás: 0
 	Becslés: 1 óra
 	Eltelt idő: 1 óra
+	
+c, Rendszerterv:
+	Szereplők: egész csapat
+	Prioritás: 0
+	Becslés: 2 óra
+	Eltelt idő: 2 óra
 
 3. Üzleti folyamatok modellje
 
