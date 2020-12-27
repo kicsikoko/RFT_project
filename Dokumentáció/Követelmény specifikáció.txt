@@ -18,6 +18,11 @@ megkönnyítsük a fiatalok helyzetét. Azért választottuk a Java nyelvet, mer
 7. Igényelt üzleti folyamatok
 
 8. Követelménylista (KÖTELEZŐ!)
+Összeadás művelete
+Kivonás művelete
+Szorzás művelete
+Osztás művelete
+Százalék művelet(maradékos osztás)
 
 9. Riportok
 
