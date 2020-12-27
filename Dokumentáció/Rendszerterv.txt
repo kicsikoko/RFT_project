@@ -8,6 +8,10 @@ A rendszer használható számítógépen is, és a későbbiekben Androidos esz
 
 4. Követelmények
 
+Az alapvető matematikai műveletek kiszámításában nyújt segítséget. 
+Funkcionális követelméynek:
+Teljesíteni tud összeadást, kivonást, szorzást, osztást. Illetve ezen műveletek végeredményét mutatja. 
+
 5. Funkcionális terv
 Rendszerszereplők:
 	Felhasználó
