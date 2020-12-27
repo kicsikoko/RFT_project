@@ -46,7 +46,7 @@ A gombokhoz Action-t adunk ami azt fogja megmondani, hogy az adott gomb lenyomá
 
 11.Tesztterv
 Unit teszt:
-Minden gomb Action-jének a megírása után le teszteljük, hogy megfelelően működik-e.
+Minden gomb Action-jének a megírása után leteszteljük, hogy megfelelően működik-e.
 Alfa teszt:
 Ha a gombok Action-jét befejeztük egy tesztet hajtunk végre, hogy működik-e minden rendesen.
 
