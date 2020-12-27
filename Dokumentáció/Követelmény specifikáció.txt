@@ -1,5 +1,8 @@
 1. Áttekintés
-
+Az alkalmazás JAVA nyelvben íródik és a NetBeans 8.2 verziójú fejlesztőkörnyezetnek a segítségével készül.
+Egy kalkulátort szeretnénk létrehozni, mely a 4 alap műveleten kívül még százalék számítást tud számítani.
+A rendszer kinézete Windows Calculátorhoz hasonló lesz. Későbbiekben szeretnénk androidos alkalmazást is
+fejleszteni.
 
 2. Jelenlegi helyzet
 Manapság a fiataloknak a digitális világ miatt nem megy túl jól a fejben számolás képessége, 
