@@ -3,24 +3,34 @@ A rendszer célja, hogy a mai fiataloknak segítsen az alapvető számolási mű
 A rendszer használható számítógépen is, és a későbbiekben Androidos eszközökön is.
 
 2. Projektterv
-
+	
 a, Követelmény specifikáció:
-	Szereplők: egész csapat
+	Szereplők: csapat tagjai
 	Prioritás: 0, 
 	Becslés: 1 óra
 	Eltelt idő: 2óra
 
 b, Funkcionális specifikáció:
-	Szereplők: egész csapat
+	Szereplők: csapat tagjai
 	Prioritás: 0
 	Becslés: 1 óra
 	Eltelt idő: 1 óra
 	
 c, Rendszerterv:
-	Szereplők: egész csapat
+	Szereplők: csapat tagjai
 	Prioritás: 0
 	Becslés: 2 óra
 	Eltelt idő: 2 óra
+	
+d, Számológép felületének létrehozása:
+	Szereplők: Ungi Keve, Kovács Bence
+	Prioritás: 1
+	Becslés: 1 óra
+	Eltelt idő: 1 óra
+
+e, Számológép funkcióinak kódolása:
+	Szereplők: csapat tagjai
+	
 
 3. Üzleti folyamatok modellje
 
