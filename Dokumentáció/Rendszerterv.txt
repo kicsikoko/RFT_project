@@ -29,6 +29,7 @@ Fejlesztői eszközök:
 7. Absztrakt domain modell
 
 8. Architekturális terv
+A rendszerünk nem használ adatbázis szervert, ezért szimplán csak frontend fejlesztést végzünk.
 
 9. Adatbázis terv
 Nem használunk adatbázist a rendszerünkhöz.
