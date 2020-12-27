@@ -18,6 +18,7 @@ Rendszerhasználati esetek és lefutásaik:
 
 6. Fizikai környezet
 Az alkalmazás windows platformra készül, majd továbbá szeretnénk android készülékre is fejleszteni.
+Nincsenek megvásárolt komponenseink.
 Fejlesztői eszközök:
 	-GitHub
 	-Notepad++ 
