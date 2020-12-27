@@ -32,7 +32,7 @@ Fejlesztői eszközök:
 A rendszerünk nem használ adatbázis szervert, ezért szimplán csak frontend fejlesztést végzünk.
 
 9. Adatbázis terv
-Nem használunk adatbázist a rendszerünkhöz.
+Nem használunk adatbázis szervert a rendszerünkhöz.
 
 10.Implementációs terv
 A felület Java nyelven fog készülni a NetBeans 8.2 környezet segítségével.
