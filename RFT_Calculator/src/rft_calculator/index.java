@@ -224,6 +224,11 @@ public class index extends javax.swing.JFrame {
 
         btn_kivonas.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btn_kivonas.setText("-");
+        btn_kivonas.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_kivonasActionPerformed(evt);
+            }
+        });
         jPanel1.add(btn_kivonas);
         btn_kivonas.setBounds(240, 330, 60, 40);
 
@@ -411,6 +416,17 @@ public class index extends javax.swing.JFrame {
         
                            
     }//GEN-LAST:event_btn_egyenloActionPerformed
+
+    private void btn_kivonasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_kivonasActionPerformed
+        try{
+            firstnum = Double.parseDouble(value.getText());
+            value.setText("");
+            operation = "-";
+        }
+        catch(NumberFormatException o){
+            JOptionPane.showMessageDialog(null, "Enter a Valid Number", "Just Numbers", JOptionPane.INFORMATION_MESSAGE);
+        }
+    }//GEN-LAST:event_btn_kivonasActionPerformed
 
     /**
      * @param args the command line arguments
