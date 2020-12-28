@@ -199,6 +199,11 @@ public class index extends javax.swing.JFrame {
 
         btn_egyenlo.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btn_egyenlo.setText("=");
+        btn_egyenlo.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_egyenloActionPerformed(evt);
+            }
+        });
         jPanel1.add(btn_egyenlo);
         btn_egyenlo.setBounds(170, 330, 60, 40);
 
@@ -209,6 +214,11 @@ public class index extends javax.swing.JFrame {
 
         btn_osztas.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btn_osztas.setText("/");
+        btn_osztas.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_osztasActionPerformed(evt);
+            }
+        });
         jPanel1.add(btn_osztas);
         btn_osztas.setBounds(240, 280, 60, 40);
 
@@ -352,6 +362,24 @@ public class index extends javax.swing.JFrame {
            JOptionPane.showMessageDialog(null, "Enter a Valid Number", "Just numbers", JOptionPane.INFORMATION_MESSAGE);
        }
     }//GEN-LAST:event_btn_osszeadasActionPerformed
+
+    private void btn_osztasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_osztasActionPerformed
+        
+    }//GEN-LAST:event_btn_osztasActionPerformed
+
+    private void btn_egyenloActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_egyenloActionPerformed
+        try
+        {
+            String answer;
+            secondnum=Double.parseDouble(value.getText());
+            if(operation == "+"){
+                result= firstnum+secondnum;
+                answer= String.format("%.2f", result);
+                value=setText(answer);
+                equation.setText(firstnum + "+" + secondnum+ "=" + answer);
+            }
+                           }
+    }//GEN-LAST:event_btn_egyenloActionPerformed
 
     /**
      * @param args the command line arguments
