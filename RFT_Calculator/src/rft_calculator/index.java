@@ -374,9 +374,9 @@ public class index extends javax.swing.JFrame {
             if(operation == "+"){
                 result= firstnum+secondnum;
                 answer= String.format("%.2f", result);
-                value=setText(answer);
-                equation.setText(firstnum + "+" + secondnum+ "=" + answer);
-           
+                value.setText(answer);
+                btn_egyenlo.setText(firstnum + "+" + secondnum+ "=" + answer);
+            }
        }catch(NumberFormatException o){
            JOptionPane.showMessageDialog(null, "Enter a Valid Number", "Just numbers", JOptionPane.INFORMATION_MESSAGE);
        }
