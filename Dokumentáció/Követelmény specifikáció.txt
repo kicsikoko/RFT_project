@@ -40,6 +40,8 @@ Kivonás művelete
 Szorzás művelete
 Osztás művelete
 Százalék művelete
+Törlés művelete
+Clear művelete
 Beviteli mező
 Eredmény mező
 
