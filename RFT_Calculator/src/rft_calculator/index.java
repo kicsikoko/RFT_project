@@ -57,6 +57,11 @@ public class index extends javax.swing.JFrame {
 
         btn_torles.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         btn_torles.setText("Del");
+        btn_torles.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_torlesActionPerformed(evt);
+            }
+        });
         jPanel1.add(btn_torles);
         btn_torles.setBounds(30, 130, 60, 40);
 
@@ -286,6 +291,18 @@ public class index extends javax.swing.JFrame {
         String kilenc = value.getText()+ btn_kilenc.getText();
          value.setText(kilenc);
     }//GEN-LAST:event_btn_kilencActionPerformed
+
+    private void btn_torlesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_torlesActionPerformed
+        // btn_torles beállítása
+        String torol = null;
+        if (value.getText().length()>0) {
+            StringBuilder st = new StringBuilder(value.getText());
+            st.deleteCharAt(value.getText().length()-1);
+            torol = st.toString();
+            value.setText(torol);
+            szamitas.setText(null);
+        }
+    }//GEN-LAST:event_btn_torlesActionPerformed
 
     /**
      * @param args the command line arguments
