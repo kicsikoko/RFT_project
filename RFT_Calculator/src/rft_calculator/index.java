@@ -154,6 +154,11 @@ public class index extends javax.swing.JFrame {
 
         btn_osszeadas.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btn_osszeadas.setText("+");
+        btn_osszeadas.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_osszeadasActionPerformed(evt);
+            }
+        });
         jPanel1.add(btn_osszeadas);
         btn_osszeadas.setBounds(170, 130, 130, 40);
 
@@ -336,6 +341,17 @@ public class index extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(null, "Enter a valid number", "Just Numbers", JOptionPane.INFORMATION_MESSAGE);
         }
     }//GEN-LAST:event_btn_szazalekszamitasActionPerformed
+
+    private void btn_osszeadasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_osszeadasActionPerformed
+       try{
+           double firstnum = Double.parseDouble(value.getText());
+           value.setText("");
+           operation="+";
+           
+       }catch(NumberFormatException o){
+           JOptionPane.showMessageDialog(null, "Enter a Valid Number", "Just numbers", JOptionPane.INFORMATION_MESSAGE);
+       }
+    }//GEN-LAST:event_btn_osszeadasActionPerformed
 
     /**
      * @param args the command line arguments
