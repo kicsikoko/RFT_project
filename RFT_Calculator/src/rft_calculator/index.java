@@ -5,11 +5,17 @@
  */
 package rft_calculator;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author kovac
  */
 public class index extends javax.swing.JFrame {
+    
+    double firstnum, secondnum, result;
+    String operation;
+    double answer;
 
     /**
      * Creates new form index
@@ -88,6 +94,11 @@ public class index extends javax.swing.JFrame {
 
         btn_clear.setFont(new java.awt.Font("Tahoma", 1, 10)); // NOI18N
         btn_clear.setText("Clear");
+        btn_clear.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_clearActionPerformed(evt);
+            }
+        });
         jPanel1.add(btn_clear);
         btn_clear.setBounds(100, 130, 60, 40);
 
@@ -203,6 +214,11 @@ public class index extends javax.swing.JFrame {
 
         btn_szazalekszamitas.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btn_szazalekszamitas.setText("%");
+        btn_szazalekszamitas.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_szazalekszamitasActionPerformed(evt);
+            }
+        });
         jPanel1.add(btn_szazalekszamitas);
         btn_szazalekszamitas.setBounds(240, 180, 60, 40);
         jPanel1.add(jLabel1);
@@ -303,6 +319,23 @@ public class index extends javax.swing.JFrame {
             szamitas.setText(null);
         }
     }//GEN-LAST:event_btn_torlesActionPerformed
+
+    private void btn_clearActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_clearActionPerformed
+        // TODO add your handling code here:
+        value.setText(null);
+        szamitas.setText(null);
+    }//GEN-LAST:event_btn_clearActionPerformed
+
+    private void btn_szazalekszamitasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_szazalekszamitasActionPerformed
+        // TODO add your handling code here:
+        try{
+            firstnum = Double.parseDouble(value.getText());
+            value.setText(""); //when the operand is clicked the value will be set to none or empty
+            operation = "%";
+        }catch(NumberFormatException o){
+            JOptionPane.showMessageDialog(null, "Enter a valid number", "Just Numbers", JOptionPane.INFORMATION_MESSAGE);
+        }
+    }//GEN-LAST:event_btn_szazalekszamitasActionPerformed
 
     /**
      * @param args the command line arguments
