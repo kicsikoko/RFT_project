@@ -35,14 +35,13 @@ A megrendelő a bekapcsoló gombon keresztül bekapcsolja a számológépe, és 
 elkezdi a megadott számokkal. 
 
 8. Követelménylista (KÖTELEZŐ!)
-Stabil működés minden esetben
-Egyszerű használhatóság
-Felhasználóbarát
 Összeadás művelete
 Kivonás művelete
 Szorzás művelete
 Osztás művelete
-Százalék művelet
+Százalék művelete
+Beviteli mező
+Eredmény mező
 
 9. Riportok
 A megrendelő olyan számológépet szeretett volna, mellyel megkönnyíti a mindennapi életét, hiszen legtöbbször
