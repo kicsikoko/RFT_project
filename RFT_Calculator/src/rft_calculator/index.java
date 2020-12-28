@@ -215,6 +215,11 @@ public class index extends javax.swing.JFrame {
 
         btn_szorzas.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btn_szorzas.setText("*");
+        btn_szorzas.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_szorzasActionPerformed(evt);
+            }
+        });
         jPanel1.add(btn_szorzas);
         btn_szorzas.setBounds(240, 130, 60, 40);
 
@@ -460,6 +465,13 @@ public class index extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(null, "Enter a Valid Number", "Just Numbers", JOptionPane.INFORMATION_MESSAGE);
         }
     }//GEN-LAST:event_negativActionPerformed
+
+    private void btn_szorzasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_szorzasActionPerformed
+        // TODO add your handling code here:
+        firstnum = Double.parseDouble(value.getText());
+        value.setText("");
+        operation = "*";
+    }//GEN-LAST:event_btn_szorzasActionPerformed
 
     /**
      * @param args the command line arguments
