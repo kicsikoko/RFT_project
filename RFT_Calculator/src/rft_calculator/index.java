@@ -364,7 +364,13 @@ public class index extends javax.swing.JFrame {
     }//GEN-LAST:event_btn_osszeadasActionPerformed
 
     private void btn_osztasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_osztasActionPerformed
-        
+        try{
+        firstnum = Double.parseDouble(value.getText());
+        value.setText("");
+        operation = "/";
+        }catch (NumberFormatException o){
+            JOptionPane.showMessageDialog(null, "Enter a Valid Number", "Just Numbers", JOptionPane.INFORMATION_MESSAGE);
+        }
     }//GEN-LAST:event_btn_osztasActionPerformed
 
     private void btn_egyenloActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_egyenloActionPerformed
