@@ -35,15 +35,15 @@ A megrendelő a bekapcsoló gombon keresztül bekapcsolja a számológépe, és 
 elkezdi a megadott számokkal. 
 
 8. Követelménylista (KÖTELEZŐ!)
-Összeadás művelete
-Kivonás művelete
-Szorzás művelete
-Osztás művelete
-Százalék művelete
-Törlés művelete
-Clear művelete
-Beviteli mező
-Eredmény mező
+K01:Összeadás művelete: A felhasználó számokat tud összadni
+K02:Kivonás művelete: A felhasználó számokat tud kivonni egymásból
+K03:Szorzás művelete: A felhasználó számokat tud összeszorozni
+K04:Osztás művelete: A felhasználó számokat tud elosztani egymással
+K05:Százalék művelete: A felhasználó a százelék műveletét tudja megvalósítani
+K06:Törlés művelete: A felhasználó a beviteli mezőből képes kitörölni egy karaktert
+K07:Clear művelete: A felhasználó a teljes beviteli mező értékét törli
+K08:Beviteli mező: A felhasználó képes számokat bevinni a műveletekhez
+K09:Eredmény mező: A felhasználó látja a bevitt műveleteket
 
 9. Riportok
 A megrendelő olyan számológépet szeretett volna, mellyel megkönnyíti a mindennapi életét, hiszen legtöbbször
