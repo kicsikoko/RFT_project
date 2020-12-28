@@ -375,7 +375,7 @@ public class index extends javax.swing.JFrame {
 
     private void btn_osszeadasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_osszeadasActionPerformed
        try{
-           double firstnum = Double.parseDouble(value.getText());
+           firstnum = Double.parseDouble(value.getText());
            value.setText("");
            operation="+";
            
