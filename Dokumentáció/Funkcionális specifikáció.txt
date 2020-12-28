@@ -27,5 +27,14 @@ ellenörizni.
 9. Forgatókönyv
 
 10. Funkció - követelmény megfeleltetés
+Összeadás gomb és a hozzá tartozó OnClick metódus -->Összeadás művelete
+Kivonás gomb és a hozzá tartozó OnClick metódus -->Kivonás művelete
+Szorzás gomb és a hozzá tartozó OnClick metódus -->Szorzás művelete
+Osztás gomb és a hozzá tartozó OnClick metódus -->Osztás művelete
+Százalék gomb és a hozzá tartozó OnClick metódus -->Százalék művelete
+Törlés gomb és a hozzá tartozó OnClick metódus -->Törlés művelete
+Clear gomb és a hozzá tartozó OnClick metódus -->Clear művelete
+Textfield elhelyezése -->Beviteli mező
+Label elhelyezése -->Eredmény mező
 
 11. Fogalomszótár
