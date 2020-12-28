@@ -104,7 +104,7 @@ public class index extends javax.swing.JFrame {
         btn_osszeadas.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btn_osszeadas.setText("+");
         jPanel1.add(btn_osszeadas);
-        btn_osszeadas.setBounds(170, 130, 140, 40);
+        btn_osszeadas.setBounds(170, 130, 130, 40);
 
         btn_kilenc.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btn_kilenc.setText("9");
