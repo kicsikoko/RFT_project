@@ -409,7 +409,7 @@ public class index extends javax.swing.JFrame {
                 szamitas.setText(firstnum + " + " + secondnum + " = " + result);
             }
             else if (operation == "%"){
-                result = firstnum % secondnum;
+                result = firstnum * secondnum/100;
                 value.setText(""+result);
                 szamitas.setText(firstnum + " % " + secondnum + " = " + result);
             }
