@@ -49,6 +49,7 @@ public class index extends javax.swing.JFrame {
         jButton4 = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
         value = new javax.swing.JTextField();
+        szamitas = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -88,7 +89,7 @@ public class index extends javax.swing.JFrame {
         jButton18.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButton18.setText("1");
         jPanel1.add(jButton18);
-        jButton18.setBounds(30, 283, 60, 40);
+        jButton18.setBounds(30, 280, 60, 40);
 
         jButton13.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButton13.setText("2");
@@ -154,7 +155,11 @@ public class index extends javax.swing.JFrame {
 
         value.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
         jPanel1.add(value);
-        value.setBounds(30, 60, 270, 60);
+        value.setBounds(30, 20, 270, 60);
+
+        szamitas.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
+        jPanel1.add(szamitas);
+        szamitas.setBounds(34, 84, 260, 40);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -229,6 +234,7 @@ public class index extends javax.swing.JFrame {
     private javax.swing.JButton jButton9;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JPanel jPanel1;
+    private javax.swing.JLabel szamitas;
     private javax.swing.JTextField value;
     // End of variables declaration//GEN-END:variables
 }
