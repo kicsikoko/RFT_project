@@ -375,8 +375,30 @@ public class index extends javax.swing.JFrame {
                 result= firstnum+secondnum;
                 answer= String.format("%.2f", result);
                 value.setText(answer);
-                btn_egyenlo.setText(firstnum + "+" + secondnum+ "=" + answer);
+                szamitas.setText(firstnum + "+" + secondnum+ "=" + answer);
             }
+            else if (operation == "%"){
+                result = firstnum % secondnum;
+                value.setText(""+result);
+                szamitas.setText(firstnum + " % " + secondnum + " = " + result);
+            }
+            else if (operation == "-"){
+                result = firstnum - secondnum;
+                value.setText(""+result);
+                szamitas.setText(firstnum + " - " + secondnum + " = " + result);
+            }
+            else if (operation == "/"){
+                result = firstnum / secondnum;
+                value.setText(""+result);
+                szamitas.setText(firstnum + " / " + secondnum + " = " + result);
+            }
+            else if (operation == "*"){
+                result = firstnum * secondnum;
+                value.setText(""+result);
+                szamitas.setText(firstnum + " * " + secondnum + " = " + result);
+            }
+            
+            
        }catch(NumberFormatException o){
            JOptionPane.showMessageDialog(null, "Enter a Valid Number", "Just numbers", JOptionPane.INFORMATION_MESSAGE);
        }
