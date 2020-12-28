@@ -194,6 +194,11 @@ public class index extends javax.swing.JFrame {
 
         btn_tizedespont.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btn_tizedespont.setText(".");
+        btn_tizedespont.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_tizedespontActionPerformed(evt);
+            }
+        });
         jPanel1.add(btn_tizedespont);
         btn_tizedespont.setBounds(100, 330, 60, 40);
 
@@ -427,6 +432,12 @@ public class index extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(null, "Enter a Valid Number", "Just Numbers", JOptionPane.INFORMATION_MESSAGE);
         }
     }//GEN-LAST:event_btn_kivonasActionPerformed
+
+    private void btn_tizedespontActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_tizedespontActionPerformed
+        // TODO add your handling code here:
+        String pont = value.getText() + btn_tizedespont.getText();
+        value.setText(pont);
+    }//GEN-LAST:event_btn_tizedespontActionPerformed
 
     /**
      * @param args the command line arguments
