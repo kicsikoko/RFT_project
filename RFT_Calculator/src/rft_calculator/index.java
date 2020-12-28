@@ -400,9 +400,8 @@ public class index extends javax.swing.JFrame {
             secondnum=Double.parseDouble(value.getText());
             if(operation == "+"){
                 result= firstnum+secondnum;
-                answer= String.format("%.2f", result);
-                value.setText(answer);
-                szamitas.setText(firstnum + "+" + secondnum+ "=" + answer);
+                value.setText(""+result);
+                szamitas.setText(firstnum + " % " + secondnum + " = " + result);
             }
             else if (operation == "%"){
                 result = firstnum % secondnum;
