@@ -401,7 +401,7 @@ public class index extends javax.swing.JFrame {
             if(operation == "+"){
                 result= firstnum+secondnum;
                 value.setText(""+result);
-                szamitas.setText(firstnum + " % " + secondnum + " = " + result);
+                szamitas.setText(firstnum + " + " + secondnum + " = " + result);
             }
             else if (operation == "%"){
                 result = firstnum % secondnum;
