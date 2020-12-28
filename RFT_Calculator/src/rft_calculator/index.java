@@ -48,6 +48,7 @@ public class index extends javax.swing.JFrame {
         jButton3 = new javax.swing.JButton();
         jButton4 = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
+        jTextField1 = new javax.swing.JTextField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -132,27 +133,28 @@ public class index extends javax.swing.JFrame {
         jButton1.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButton1.setText("*");
         jPanel1.add(jButton1);
-        jButton1.setBounds(240, 240, 43, 31);
+        jButton1.setBounds(240, 230, 60, 40);
 
         jButton2.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButton2.setText("/");
         jPanel1.add(jButton2);
-        jButton2.setBounds(240, 290, 43, 31);
+        jButton2.setBounds(240, 280, 60, 40);
 
         jButton3.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButton3.setText("-");
         jPanel1.add(jButton3);
-        jButton3.setBounds(250, 340, 41, 31);
+        jButton3.setBounds(240, 330, 60, 40);
 
         jButton4.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButton4.setText("%");
         jPanel1.add(jButton4);
-        jButton4.setBounds(250, 190, 55, 31);
-
-        jLabel1.setIcon(new javax.swing.ImageIcon("E:\\Google Drive (ukeve12)\\EKE\\11. félév\\PTI\\A rendszerfejlesztés technológiája ea\\Projekt\\RFT_project\\RFT_Calculator\\fekete-hatter.jpg")); // NOI18N
-        jLabel1.setText("jLabel1");
+        jButton4.setBounds(240, 180, 60, 40);
         jPanel1.add(jLabel1);
         jLabel1.setBounds(0, 0, 360, 520);
+
+        jTextField1.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
+        jPanel1.add(jTextField1);
+        jTextField1.setBounds(30, 60, 280, 60);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -227,5 +229,6 @@ public class index extends javax.swing.JFrame {
     private javax.swing.JButton jButton9;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JPanel jPanel1;
+    private javax.swing.JTextField jTextField1;
     // End of variables declaration//GEN-END:variables
 }
