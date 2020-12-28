@@ -184,7 +184,7 @@ public class index extends javax.swing.JFrame {
 
     private void btn_nullaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_nullaActionPerformed
          // btn_nulla értékének beállítása
-         String nulla = value.getText()+ zero.getText();
+         String nulla = value.getText()+ btn_nulla.getText();
          value.setText(nulla);
     }//GEN-LAST:event_btn_nullaActionPerformed
 
