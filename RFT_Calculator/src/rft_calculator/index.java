@@ -28,25 +28,25 @@ public class index extends javax.swing.JFrame {
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
-        jButton15 = new javax.swing.JButton();
-        jButton16 = new javax.swing.JButton();
-        jButton17 = new javax.swing.JButton();
-        jButton10 = new javax.swing.JButton();
-        jButton11 = new javax.swing.JButton();
-        jButton12 = new javax.swing.JButton();
-        jButton18 = new javax.swing.JButton();
-        jButton13 = new javax.swing.JButton();
-        jButton19 = new javax.swing.JButton();
-        jButton5 = new javax.swing.JButton();
-        jButton6 = new javax.swing.JButton();
-        jButton7 = new javax.swing.JButton();
-        jButton8 = new javax.swing.JButton();
-        jButton14 = new javax.swing.JButton();
-        jButton9 = new javax.swing.JButton();
-        jButton1 = new javax.swing.JButton();
-        jButton2 = new javax.swing.JButton();
-        jButton3 = new javax.swing.JButton();
-        jButton4 = new javax.swing.JButton();
+        btn_torles = new javax.swing.JButton();
+        btn_het = new javax.swing.JButton();
+        btn_negy = new javax.swing.JButton();
+        btn_clear = new javax.swing.JButton();
+        btn_nyolc = new javax.swing.JButton();
+        btn_ot = new javax.swing.JButton();
+        btn_egy = new javax.swing.JButton();
+        btn_ketto = new javax.swing.JButton();
+        btn_nulla = new javax.swing.JButton();
+        btn_osszeadas = new javax.swing.JButton();
+        btn_kilenc = new javax.swing.JButton();
+        btn_hat = new javax.swing.JButton();
+        btn_harom = new javax.swing.JButton();
+        btn_tizedespont = new javax.swing.JButton();
+        btn_egyenlo = new javax.swing.JButton();
+        btn_szorzas = new javax.swing.JButton();
+        btn_osztas = new javax.swing.JButton();
+        btn_kivonas = new javax.swing.JButton();
+        btn_szazalekszamitas = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
         value = new javax.swing.JTextField();
         szamitas = new javax.swing.JLabel();
@@ -55,101 +55,101 @@ public class index extends javax.swing.JFrame {
 
         jPanel1.setLayout(null);
 
-        jButton15.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jButton15.setText("Del");
-        jPanel1.add(jButton15);
-        jButton15.setBounds(30, 130, 60, 40);
+        btn_torles.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        btn_torles.setText("Del");
+        jPanel1.add(btn_torles);
+        btn_torles.setBounds(30, 130, 60, 40);
 
-        jButton16.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
-        jButton16.setText("7");
-        jButton16.setToolTipText("");
-        jPanel1.add(jButton16);
-        jButton16.setBounds(30, 180, 60, 40);
+        btn_het.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        btn_het.setText("7");
+        btn_het.setToolTipText("");
+        jPanel1.add(btn_het);
+        btn_het.setBounds(30, 180, 60, 40);
 
-        jButton17.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
-        jButton17.setText("4");
-        jPanel1.add(jButton17);
-        jButton17.setBounds(30, 230, 60, 40);
+        btn_negy.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        btn_negy.setText("4");
+        jPanel1.add(btn_negy);
+        btn_negy.setBounds(30, 230, 60, 40);
 
-        jButton10.setFont(new java.awt.Font("Tahoma", 1, 10)); // NOI18N
-        jButton10.setText("Clear");
-        jPanel1.add(jButton10);
-        jButton10.setBounds(100, 130, 60, 40);
+        btn_clear.setFont(new java.awt.Font("Tahoma", 1, 10)); // NOI18N
+        btn_clear.setText("Clear");
+        jPanel1.add(btn_clear);
+        btn_clear.setBounds(100, 130, 60, 40);
 
-        jButton11.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
-        jButton11.setText("8");
-        jPanel1.add(jButton11);
-        jButton11.setBounds(100, 183, 60, 40);
+        btn_nyolc.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        btn_nyolc.setText("8");
+        jPanel1.add(btn_nyolc);
+        btn_nyolc.setBounds(100, 183, 60, 40);
 
-        jButton12.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
-        jButton12.setText("5");
-        jPanel1.add(jButton12);
-        jButton12.setBounds(100, 233, 60, 40);
+        btn_ot.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        btn_ot.setText("5");
+        jPanel1.add(btn_ot);
+        btn_ot.setBounds(100, 233, 60, 40);
 
-        jButton18.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
-        jButton18.setText("1");
-        jPanel1.add(jButton18);
-        jButton18.setBounds(30, 280, 60, 40);
+        btn_egy.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        btn_egy.setText("1");
+        jPanel1.add(btn_egy);
+        btn_egy.setBounds(30, 280, 60, 40);
 
-        jButton13.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
-        jButton13.setText("2");
-        jPanel1.add(jButton13);
-        jButton13.setBounds(100, 280, 60, 40);
+        btn_ketto.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        btn_ketto.setText("2");
+        jPanel1.add(btn_ketto);
+        btn_ketto.setBounds(100, 280, 60, 40);
 
-        jButton19.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
-        jButton19.setText("0");
-        jPanel1.add(jButton19);
-        jButton19.setBounds(30, 330, 60, 40);
+        btn_nulla.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        btn_nulla.setText("0");
+        jPanel1.add(btn_nulla);
+        btn_nulla.setBounds(30, 330, 60, 40);
 
-        jButton5.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
-        jButton5.setText("+");
-        jPanel1.add(jButton5);
-        jButton5.setBounds(170, 130, 130, 40);
+        btn_osszeadas.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        btn_osszeadas.setText("+");
+        jPanel1.add(btn_osszeadas);
+        btn_osszeadas.setBounds(170, 130, 140, 40);
 
-        jButton6.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
-        jButton6.setText("9");
-        jPanel1.add(jButton6);
-        jButton6.setBounds(170, 183, 60, 40);
+        btn_kilenc.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        btn_kilenc.setText("9");
+        jPanel1.add(btn_kilenc);
+        btn_kilenc.setBounds(170, 183, 60, 40);
 
-        jButton7.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
-        jButton7.setText("6");
-        jPanel1.add(jButton7);
-        jButton7.setBounds(170, 233, 60, 40);
+        btn_hat.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        btn_hat.setText("6");
+        jPanel1.add(btn_hat);
+        btn_hat.setBounds(170, 233, 60, 40);
 
-        jButton8.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
-        jButton8.setText("3");
-        jPanel1.add(jButton8);
-        jButton8.setBounds(170, 280, 60, 40);
+        btn_harom.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        btn_harom.setText("3");
+        jPanel1.add(btn_harom);
+        btn_harom.setBounds(170, 280, 60, 40);
 
-        jButton14.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
-        jButton14.setText(".");
-        jPanel1.add(jButton14);
-        jButton14.setBounds(100, 330, 60, 40);
+        btn_tizedespont.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        btn_tizedespont.setText(".");
+        jPanel1.add(btn_tizedespont);
+        btn_tizedespont.setBounds(100, 330, 60, 40);
 
-        jButton9.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
-        jButton9.setText("=");
-        jPanel1.add(jButton9);
-        jButton9.setBounds(170, 330, 60, 40);
+        btn_egyenlo.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        btn_egyenlo.setText("=");
+        jPanel1.add(btn_egyenlo);
+        btn_egyenlo.setBounds(170, 330, 60, 40);
 
-        jButton1.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
-        jButton1.setText("*");
-        jPanel1.add(jButton1);
-        jButton1.setBounds(240, 230, 60, 40);
+        btn_szorzas.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        btn_szorzas.setText("*");
+        jPanel1.add(btn_szorzas);
+        btn_szorzas.setBounds(240, 230, 60, 40);
 
-        jButton2.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
-        jButton2.setText("/");
-        jPanel1.add(jButton2);
-        jButton2.setBounds(240, 280, 60, 40);
+        btn_osztas.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        btn_osztas.setText("/");
+        jPanel1.add(btn_osztas);
+        btn_osztas.setBounds(240, 280, 60, 40);
 
-        jButton3.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
-        jButton3.setText("-");
-        jPanel1.add(jButton3);
-        jButton3.setBounds(240, 330, 60, 40);
+        btn_kivonas.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        btn_kivonas.setText("-");
+        jPanel1.add(btn_kivonas);
+        btn_kivonas.setBounds(240, 330, 60, 40);
 
-        jButton4.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
-        jButton4.setText("%");
-        jPanel1.add(jButton4);
-        jButton4.setBounds(240, 180, 60, 40);
+        btn_szazalekszamitas.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        btn_szazalekszamitas.setText("%");
+        jPanel1.add(btn_szazalekszamitas);
+        btn_szazalekszamitas.setBounds(240, 180, 60, 40);
         jPanel1.add(jLabel1);
         jLabel1.setBounds(0, 0, 350, 390);
 
@@ -213,25 +213,25 @@ public class index extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton10;
-    private javax.swing.JButton jButton11;
-    private javax.swing.JButton jButton12;
-    private javax.swing.JButton jButton13;
-    private javax.swing.JButton jButton14;
-    private javax.swing.JButton jButton15;
-    private javax.swing.JButton jButton16;
-    private javax.swing.JButton jButton17;
-    private javax.swing.JButton jButton18;
-    private javax.swing.JButton jButton19;
-    private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton3;
-    private javax.swing.JButton jButton4;
-    private javax.swing.JButton jButton5;
-    private javax.swing.JButton jButton6;
-    private javax.swing.JButton jButton7;
-    private javax.swing.JButton jButton8;
-    private javax.swing.JButton jButton9;
+    private javax.swing.JButton btn_clear;
+    private javax.swing.JButton btn_egy;
+    private javax.swing.JButton btn_egyenlo;
+    private javax.swing.JButton btn_harom;
+    private javax.swing.JButton btn_hat;
+    private javax.swing.JButton btn_het;
+    private javax.swing.JButton btn_ketto;
+    private javax.swing.JButton btn_kilenc;
+    private javax.swing.JButton btn_kivonas;
+    private javax.swing.JButton btn_negy;
+    private javax.swing.JButton btn_nulla;
+    private javax.swing.JButton btn_nyolc;
+    private javax.swing.JButton btn_osszeadas;
+    private javax.swing.JButton btn_osztas;
+    private javax.swing.JButton btn_ot;
+    private javax.swing.JButton btn_szazalekszamitas;
+    private javax.swing.JButton btn_szorzas;
+    private javax.swing.JButton btn_tizedespont;
+    private javax.swing.JButton btn_torles;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JLabel szamitas;
