@@ -98,6 +98,11 @@ public class index extends javax.swing.JFrame {
 
         btn_nulla.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btn_nulla.setText("0");
+        btn_nulla.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_nullaActionPerformed(evt);
+            }
+        });
         jPanel1.add(btn_nulla);
         btn_nulla.setBounds(30, 330, 60, 40);
 
@@ -151,7 +156,7 @@ public class index extends javax.swing.JFrame {
         jPanel1.add(btn_szazalekszamitas);
         btn_szazalekszamitas.setBounds(240, 180, 60, 40);
         jPanel1.add(jLabel1);
-        jLabel1.setBounds(0, 0, 350, 390);
+        jLabel1.setBounds(0, 10, 350, 390);
 
         value.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
         jPanel1.add(value);
@@ -176,6 +181,12 @@ public class index extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void btn_nullaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_nullaActionPerformed
+         // btn_nulla értékének beállítása
+         String nulla = value.getText()+ zero.getText();
+         value.setText(nulla);
+    }//GEN-LAST:event_btn_nullaActionPerformed
 
     /**
      * @param args the command line arguments
