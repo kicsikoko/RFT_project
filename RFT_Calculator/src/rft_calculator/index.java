@@ -48,7 +48,7 @@ public class index extends javax.swing.JFrame {
         jButton3 = new javax.swing.JButton();
         jButton4 = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
-        jTextField1 = new javax.swing.JTextField();
+        value = new javax.swing.JTextField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -150,11 +150,11 @@ public class index extends javax.swing.JFrame {
         jPanel1.add(jButton4);
         jButton4.setBounds(240, 180, 60, 40);
         jPanel1.add(jLabel1);
-        jLabel1.setBounds(0, 0, 360, 520);
+        jLabel1.setBounds(0, 0, 350, 390);
 
-        jTextField1.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
-        jPanel1.add(jTextField1);
-        jTextField1.setBounds(30, 60, 280, 60);
+        value.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
+        jPanel1.add(value);
+        value.setBounds(30, 60, 270, 60);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -166,7 +166,7 @@ public class index extends javax.swing.JFrame {
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 521, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 394, Short.MAX_VALUE)
         );
 
         pack();
@@ -229,6 +229,6 @@ public class index extends javax.swing.JFrame {
     private javax.swing.JButton jButton9;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JPanel jPanel1;
-    private javax.swing.JTextField jTextField1;
+    private javax.swing.JTextField value;
     // End of variables declaration//GEN-END:variables
 }
