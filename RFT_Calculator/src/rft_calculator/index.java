@@ -103,7 +103,7 @@ public class index extends javax.swing.JFrame {
         jButton5.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButton5.setText("+");
         jPanel1.add(jButton5);
-        jButton5.setBounds(170, 130, 140, 40);
+        jButton5.setBounds(170, 130, 130, 40);
 
         jButton6.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButton6.setText("9");
