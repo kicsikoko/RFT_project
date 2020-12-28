@@ -16,6 +16,7 @@ public class index extends javax.swing.JFrame {
     double firstnum, secondnum, result;
     String operation;
     double answer;
+    
 
     /**
      * Creates new form index
@@ -54,11 +55,12 @@ public class index extends javax.swing.JFrame {
         btn_kivonas = new javax.swing.JButton();
         btn_szazalekszamitas = new javax.swing.JButton();
         negativ = new javax.swing.JButton();
-        jLabel1 = new javax.swing.JLabel();
         value = new javax.swing.JTextField();
+        jLabel1 = new javax.swing.JLabel();
         szamitas = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Számológép");
 
         jPanel1.setLayout(null);
 
@@ -262,12 +264,13 @@ public class index extends javax.swing.JFrame {
         });
         jPanel1.add(negativ);
         negativ.setBounds(240, 330, 60, 40);
-        jPanel1.add(jLabel1);
-        jLabel1.setBounds(0, 0, 350, 390);
 
+        value.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         value.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
         jPanel1.add(value);
         value.setBounds(30, 20, 270, 60);
+        jPanel1.add(jLabel1);
+        jLabel1.setBounds(0, 0, 350, 390);
 
         szamitas.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         jPanel1.add(szamitas);
@@ -373,6 +376,7 @@ public class index extends javax.swing.JFrame {
             firstnum = Double.parseDouble(value.getText());
             value.setText(""); //when the operand is clicked the value will be set to none or empty
             operation = "%";
+            szamitas.setText(firstnum + operation);
         }catch(NumberFormatException o){
             JOptionPane.showMessageDialog(null, "Enter a valid number", "Just Numbers", JOptionPane.INFORMATION_MESSAGE);
         }
@@ -383,6 +387,9 @@ public class index extends javax.swing.JFrame {
            firstnum = Double.parseDouble(value.getText());
            value.setText("");
            operation="+";
+           szamitas.setText(firstnum + operation);
+           
+           
            
        }catch(NumberFormatException o){
            JOptionPane.showMessageDialog(null, "Enter a Valid Number", "Just numbers", JOptionPane.INFORMATION_MESSAGE);
@@ -394,6 +401,7 @@ public class index extends javax.swing.JFrame {
         firstnum = Double.parseDouble(value.getText());
         value.setText("");
         operation = "/";
+        szamitas.setText(firstnum + operation);
         }catch (NumberFormatException o){
             JOptionPane.showMessageDialog(null, "Enter a Valid Number", "Just Numbers", JOptionPane.INFORMATION_MESSAGE);
         }
@@ -442,6 +450,7 @@ public class index extends javax.swing.JFrame {
             firstnum = Double.parseDouble(value.getText());
             value.setText("");
             operation = "-";
+            szamitas.setText(firstnum + operation);
         }
         catch(NumberFormatException o){
             JOptionPane.showMessageDialog(null, "Enter a Valid Number", "Just Numbers", JOptionPane.INFORMATION_MESSAGE);
@@ -471,6 +480,7 @@ public class index extends javax.swing.JFrame {
         firstnum = Double.parseDouble(value.getText());
         value.setText("");
         operation = "*";
+        szamitas.setText(firstnum + operation);
     }//GEN-LAST:event_btn_szorzasActionPerformed
 
     /**
@@ -507,6 +517,7 @@ public class index extends javax.swing.JFrame {
             }
         });
     }
+    
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btn_clear;
