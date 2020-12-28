@@ -53,6 +53,7 @@ public class index extends javax.swing.JFrame {
         btn_osztas = new javax.swing.JButton();
         btn_kivonas = new javax.swing.JButton();
         btn_szazalekszamitas = new javax.swing.JButton();
+        negativ = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
         value = new javax.swing.JTextField();
         szamitas = new javax.swing.JLabel();
@@ -160,7 +161,7 @@ public class index extends javax.swing.JFrame {
             }
         });
         jPanel1.add(btn_osszeadas);
-        btn_osszeadas.setBounds(170, 130, 130, 40);
+        btn_osszeadas.setBounds(240, 280, 60, 40);
 
         btn_kilenc.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btn_kilenc.setText("9");
@@ -215,7 +216,7 @@ public class index extends javax.swing.JFrame {
         btn_szorzas.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btn_szorzas.setText("*");
         jPanel1.add(btn_szorzas);
-        btn_szorzas.setBounds(240, 230, 60, 40);
+        btn_szorzas.setBounds(240, 130, 60, 40);
 
         btn_osztas.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btn_osztas.setText("/");
@@ -225,7 +226,7 @@ public class index extends javax.swing.JFrame {
             }
         });
         jPanel1.add(btn_osztas);
-        btn_osztas.setBounds(240, 280, 60, 40);
+        btn_osztas.setBounds(240, 180, 60, 40);
 
         btn_kivonas.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btn_kivonas.setText("-");
@@ -235,7 +236,7 @@ public class index extends javax.swing.JFrame {
             }
         });
         jPanel1.add(btn_kivonas);
-        btn_kivonas.setBounds(240, 330, 60, 40);
+        btn_kivonas.setBounds(240, 230, 60, 40);
 
         btn_szazalekszamitas.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btn_szazalekszamitas.setText("%");
@@ -245,9 +246,19 @@ public class index extends javax.swing.JFrame {
             }
         });
         jPanel1.add(btn_szazalekszamitas);
-        btn_szazalekszamitas.setBounds(240, 180, 60, 40);
+        btn_szazalekszamitas.setBounds(170, 130, 60, 40);
+
+        negativ.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        negativ.setText("-/+");
+        negativ.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                negativActionPerformed(evt);
+            }
+        });
+        jPanel1.add(negativ);
+        negativ.setBounds(240, 330, 60, 40);
         jPanel1.add(jLabel1);
-        jLabel1.setBounds(-10, 30, 350, 390);
+        jLabel1.setBounds(0, 0, 350, 390);
 
         value.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
         jPanel1.add(value);
@@ -439,6 +450,18 @@ public class index extends javax.swing.JFrame {
         value.setText(pont);
     }//GEN-LAST:event_btn_tizedespontActionPerformed
 
+    private void negativActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_negativActionPerformed
+        // TODO add your handling code here:
+        try {
+            double pozORneg = Double.parseDouble(String.valueOf(value.getText()));
+            pozORneg = pozORneg * (-1);
+            value.setText(String.valueOf(pozORneg));
+            szamitas.setText("-" + firstnum);
+        } catch(NumberFormatException o) {
+            JOptionPane.showMessageDialog(null, "Enter a Valid Number", "Just Numbers", JOptionPane.INFORMATION_MESSAGE);
+        }
+    }//GEN-LAST:event_negativActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -496,6 +519,7 @@ public class index extends javax.swing.JFrame {
     private javax.swing.JButton btn_torles;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JPanel jPanel1;
+    private javax.swing.JButton negativ;
     private javax.swing.JLabel szamitas;
     private javax.swing.JTextField value;
     // End of variables declaration//GEN-END:variables
