@@ -17,6 +17,9 @@ fejleszteni.
 
 6. Használati esetek
 
+Ha a felhasználó nem tud fejben számolni vagy gyakorolni szeretné a számolást akkor itt ezen a felületen letudja magát 
+ellenörizni.
+
 7. Megfeleltetés, hogyan fedik le a használati esetek a követelményeket
 
 8. Képernyő tervek
