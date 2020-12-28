@@ -368,17 +368,20 @@ public class index extends javax.swing.JFrame {
     }//GEN-LAST:event_btn_osztasActionPerformed
 
     private void btn_egyenloActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_egyenloActionPerformed
-        try
-        {
-            String answer;
+        try{
+           String answer;
             secondnum=Double.parseDouble(value.getText());
             if(operation == "+"){
                 result= firstnum+secondnum;
                 answer= String.format("%.2f", result);
                 value=setText(answer);
                 equation.setText(firstnum + "+" + secondnum+ "=" + answer);
-            }
-                           }
+           
+       }catch(NumberFormatException o){
+           JOptionPane.showMessageDialog(null, "Enter a Valid Number", "Just numbers", JOptionPane.INFORMATION_MESSAGE);
+       }
+        
+                           
     }//GEN-LAST:event_btn_egyenloActionPerformed
 
     /**
