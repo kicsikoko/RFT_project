@@ -24,6 +24,9 @@ képes lesz az összeadás, kivonás, szorzás és osztás, valamint a százalé
 8. Képernyő tervek
 
 9. Forgatókönyv
+A rendszerünknek egy időben egyszerre csak egy felhasználója lehet, aki a műveleteket használja a számológépen.
+Bármilyen művelet elvégzéséhez legalább 2 számra lesz szükség. Ezek szinte bármilyen számok a lehetnek, kivéve egy esetben,
+ha 0-val szeretn az osztás műveletét elvégezni, akkor arra hibát fog dobni a számológép.
 
 10. Funkció - követelmény megfeleltetés
 Összeadás gomb és a hozzá tartozó OnClick metódus -->Összeadás művelete
