@@ -16,9 +16,8 @@ fejleszteni.
 5. Igényelt üzleti folyamatok modellje
 
 6. Használati esetek
-
-Ha a felhasználó nem tud fejben számolni vagy gyakorolni szeretné a számolást akkor itt ezen a felületen letudja magát 
-ellenörizni.
+Ha a felhasználó nem tud fejben számolni vagy csak gyakorolni szeretné a számolást, akkor ezen a felületen
+képes lesz az összeadás, kivonás, szorzás és osztás, valamint a százalékszámítás műveletét elvégezni.
 
 7. Megfeleltetés, hogyan fedik le a használati esetek a követelményeket
 
