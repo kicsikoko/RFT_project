@@ -63,11 +63,21 @@ public class index extends javax.swing.JFrame {
         btn_het.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btn_het.setText("7");
         btn_het.setToolTipText("");
+        btn_het.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_hetActionPerformed(evt);
+            }
+        });
         jPanel1.add(btn_het);
         btn_het.setBounds(30, 180, 60, 40);
 
         btn_negy.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btn_negy.setText("4");
+        btn_negy.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_negyActionPerformed(evt);
+            }
+        });
         jPanel1.add(btn_negy);
         btn_negy.setBounds(30, 230, 60, 40);
 
@@ -78,21 +88,41 @@ public class index extends javax.swing.JFrame {
 
         btn_nyolc.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btn_nyolc.setText("8");
+        btn_nyolc.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_nyolcActionPerformed(evt);
+            }
+        });
         jPanel1.add(btn_nyolc);
         btn_nyolc.setBounds(100, 183, 60, 40);
 
         btn_ot.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btn_ot.setText("5");
+        btn_ot.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_otActionPerformed(evt);
+            }
+        });
         jPanel1.add(btn_ot);
         btn_ot.setBounds(100, 233, 60, 40);
 
         btn_egy.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btn_egy.setText("1");
+        btn_egy.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_egyActionPerformed(evt);
+            }
+        });
         jPanel1.add(btn_egy);
         btn_egy.setBounds(30, 280, 60, 40);
 
         btn_ketto.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btn_ketto.setText("2");
+        btn_ketto.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_kettoActionPerformed(evt);
+            }
+        });
         jPanel1.add(btn_ketto);
         btn_ketto.setBounds(100, 280, 60, 40);
 
@@ -113,16 +143,31 @@ public class index extends javax.swing.JFrame {
 
         btn_kilenc.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btn_kilenc.setText("9");
+        btn_kilenc.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_kilencActionPerformed(evt);
+            }
+        });
         jPanel1.add(btn_kilenc);
         btn_kilenc.setBounds(170, 183, 60, 40);
 
         btn_hat.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btn_hat.setText("6");
+        btn_hat.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_hatActionPerformed(evt);
+            }
+        });
         jPanel1.add(btn_hat);
         btn_hat.setBounds(170, 233, 60, 40);
 
         btn_harom.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         btn_harom.setText("3");
+        btn_harom.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_haromActionPerformed(evt);
+            }
+        });
         jPanel1.add(btn_harom);
         btn_harom.setBounds(170, 280, 60, 40);
 
@@ -187,6 +232,60 @@ public class index extends javax.swing.JFrame {
          String nulla = value.getText()+ btn_nulla.getText();
          value.setText(nulla);
     }//GEN-LAST:event_btn_nullaActionPerformed
+
+    private void btn_egyActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_egyActionPerformed
+        // btn_egy értékének beállítása
+        String egy = value.getText()+ btn_egy.getText();
+         value.setText(egy);
+    }//GEN-LAST:event_btn_egyActionPerformed
+
+    private void btn_kettoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_kettoActionPerformed
+        // btn_ketto értékének beállítása
+        String ketto = value.getText()+ btn_ketto.getText();
+         value.setText(ketto);
+    }//GEN-LAST:event_btn_kettoActionPerformed
+
+    private void btn_haromActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_haromActionPerformed
+        // btn_harom értékének beállítása
+        String harom = value.getText()+ btn_harom.getText();
+         value.setText(harom);
+    }//GEN-LAST:event_btn_haromActionPerformed
+
+    private void btn_negyActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_negyActionPerformed
+        // btn_negy értékének beállítása
+        String negy = value.getText()+ btn_negy.getText();
+         value.setText(negy);
+    }//GEN-LAST:event_btn_negyActionPerformed
+
+    private void btn_otActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_otActionPerformed
+        // btn_ot értékének beállítása
+        String ot = value.getText()+ btn_ot.getText();
+         value.setText(ot);
+    }//GEN-LAST:event_btn_otActionPerformed
+
+    private void btn_hatActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_hatActionPerformed
+        // btn_hat értékének beállítása
+        String hat = value.getText()+ btn_hat.getText();
+         value.setText(hat);
+    }//GEN-LAST:event_btn_hatActionPerformed
+
+    private void btn_hetActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_hetActionPerformed
+        // btn_het értékének beállítása
+        String het = value.getText()+ btn_het.getText();
+         value.setText(het);
+    }//GEN-LAST:event_btn_hetActionPerformed
+
+    private void btn_nyolcActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_nyolcActionPerformed
+        // btn_egy értékének beállítása
+        String nyolc = value.getText()+ btn_nyolc.getText();
+         value.setText(nyolc);
+    }//GEN-LAST:event_btn_nyolcActionPerformed
+
+    private void btn_kilencActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_kilencActionPerformed
+        // btn_kilenc értékének beállítása
+        String kilenc = value.getText()+ btn_kilenc.getText();
+         value.setText(kilenc);
+    }//GEN-LAST:event_btn_kilencActionPerformed
 
     /**
      * @param args the command line arguments
