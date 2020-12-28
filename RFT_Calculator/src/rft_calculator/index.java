@@ -64,7 +64,7 @@ public class index extends javax.swing.JFrame {
 
         jPanel1.setLayout(null);
 
-        btn_torles.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        btn_torles.setFont(new java.awt.Font("Tahoma", 1, 10)); // NOI18N
         btn_torles.setText("Del");
         btn_torles.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
