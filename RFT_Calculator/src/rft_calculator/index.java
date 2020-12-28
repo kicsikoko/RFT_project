@@ -222,7 +222,7 @@ public class index extends javax.swing.JFrame {
         jPanel1.add(btn_szazalekszamitas);
         btn_szazalekszamitas.setBounds(240, 180, 60, 40);
         jPanel1.add(jLabel1);
-        jLabel1.setBounds(0, 10, 350, 390);
+        jLabel1.setBounds(-10, 30, 350, 390);
 
         value.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
         jPanel1.add(value);
