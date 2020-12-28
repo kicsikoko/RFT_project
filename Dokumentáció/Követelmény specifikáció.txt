@@ -42,7 +42,7 @@ Felhasználóbarát
 Kivonás művelete
 Szorzás művelete
 Osztás művelete
-Százalék művelet(maradékos osztás)
+Százalék művelet
 
 9. Riportok
 A megrendelő olyan számológépet szeretett volna, mellyel megkönnyíti a mindennapi életét, hiszen legtöbbször
