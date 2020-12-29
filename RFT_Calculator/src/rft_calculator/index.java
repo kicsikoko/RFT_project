@@ -504,7 +504,27 @@ public class index extends javax.swing.JFrame {
     }//GEN-LAST:event_btn_szorzasActionPerformed
 
     private void btn_onActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_onActionPerformed
-        // TODO add your handling code here:
+        btn_clear.setEnabled(true);
+        btn_torles.setEnabled(true);
+        btn_egyenlo.setEnabled(true);
+        btn_szazalekszamitas.setEnabled(true);
+        btn_osszeadas.setEnabled(true);
+        btn_kivonas.setEnabled(true);
+        btn_szorzas.setEnabled(true);
+        btn_osztas.setEnabled(true);
+        btn_tizedespont.setEnabled(true);
+        btn_egy.setEnabled(true);
+        btn_ketto.setEnabled(true);
+        btn_harom.setEnabled(true);
+        btn_negy.setEnabled(true);
+        btn_ot.setEnabled(true);
+        btn_hat.setEnabled(true);
+        btn_het.setEnabled(true);
+        btn_nyolc.setEnabled(true);
+        btn_kilenc.setEnabled(true);
+        btn_nulla.setEnabled(true);
+        negativ.setEnabled(true);
+        btn_off.setEnabled(true);
     }//GEN-LAST:event_btn_onActionPerformed
 
     private void btn_offActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_offActionPerformed
