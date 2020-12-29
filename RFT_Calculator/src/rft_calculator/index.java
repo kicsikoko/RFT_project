@@ -58,6 +58,8 @@ public class index extends javax.swing.JFrame {
         value = new javax.swing.JTextField();
         jLabel1 = new javax.swing.JLabel();
         szamitas = new javax.swing.JLabel();
+        btn_on = new javax.swing.JRadioButton();
+        btn_off = new javax.swing.JRadioButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Számológép");
@@ -274,7 +276,25 @@ public class index extends javax.swing.JFrame {
 
         szamitas.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         jPanel1.add(szamitas);
-        szamitas.setBounds(34, 84, 260, 40);
+        szamitas.setBounds(34, 84, 260, 20);
+
+        btn_on.setText("On");
+        btn_on.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_onActionPerformed(evt);
+            }
+        });
+        jPanel1.add(btn_on);
+        btn_on.setBounds(30, 100, 39, 23);
+
+        btn_off.setText("Off");
+        btn_off.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_offActionPerformed(evt);
+            }
+        });
+        jPanel1.add(btn_off);
+        btn_off.setBounds(70, 100, 50, 23);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -483,6 +503,35 @@ public class index extends javax.swing.JFrame {
         szamitas.setText(firstnum + operation);
     }//GEN-LAST:event_btn_szorzasActionPerformed
 
+    private void btn_onActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_onActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn_onActionPerformed
+
+    private void btn_offActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_offActionPerformed
+        // TODO add your handling code here:
+        btn_clear.setEnabled(false);
+        btn_torles.setEnabled(false);
+        btn_egyenlo.setEnabled(false);
+        btn_szazalekszamitas.setEnabled(false);
+        btn_osszeadas.setEnabled(false);
+        btn_kivonas.setEnabled(false);
+        btn_szorzas.setEnabled(false);
+        btn_osztas.setEnabled(false);
+        btn_tizedespont.setEnabled(false);
+        btn_egy.setEnabled(false);
+        btn_ketto.setEnabled(false);
+        btn_harom.setEnabled(false);
+        btn_negy.setEnabled(false);
+        btn_ot.setEnabled(false);
+        btn_hat.setEnabled(false);
+        btn_het.setEnabled(false);
+        btn_nyolc.setEnabled(false);
+        btn_kilenc.setEnabled(false);
+        btn_nulla.setEnabled(false);
+        negativ.setEnabled(false);
+        btn_off.setEnabled(false);
+    }//GEN-LAST:event_btn_offActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -532,6 +581,8 @@ public class index extends javax.swing.JFrame {
     private javax.swing.JButton btn_negy;
     private javax.swing.JButton btn_nulla;
     private javax.swing.JButton btn_nyolc;
+    private javax.swing.JRadioButton btn_off;
+    private javax.swing.JRadioButton btn_on;
     private javax.swing.JButton btn_osszeadas;
     private javax.swing.JButton btn_osztas;
     private javax.swing.JButton btn_ot;
