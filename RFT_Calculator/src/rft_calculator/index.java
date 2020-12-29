@@ -65,10 +65,13 @@ public class index extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Számológép");
 
+        jPanel1.setBackground(new java.awt.Color(0, 0, 0));
         jPanel1.setLayout(null);
 
-        btn_torles.setFont(new java.awt.Font("Tahoma", 1, 10)); // NOI18N
-        btn_torles.setText("Del");
+        btn_torles.setBackground(new java.awt.Color(153, 153, 153));
+        btn_torles.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        btn_torles.setForeground(new java.awt.Color(255, 255, 255));
+        btn_torles.setText("D");
         btn_torles.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn_torlesActionPerformed(evt);
@@ -77,7 +80,9 @@ public class index extends javax.swing.JFrame {
         jPanel1.add(btn_torles);
         btn_torles.setBounds(30, 130, 60, 40);
 
+        btn_het.setBackground(new java.awt.Color(51, 51, 51));
         btn_het.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        btn_het.setForeground(new java.awt.Color(255, 255, 255));
         btn_het.setText("7");
         btn_het.setToolTipText("");
         btn_het.addActionListener(new java.awt.event.ActionListener() {
@@ -88,7 +93,9 @@ public class index extends javax.swing.JFrame {
         jPanel1.add(btn_het);
         btn_het.setBounds(30, 180, 60, 40);
 
+        btn_negy.setBackground(new java.awt.Color(51, 51, 51));
         btn_negy.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        btn_negy.setForeground(new java.awt.Color(255, 255, 255));
         btn_negy.setText("4");
         btn_negy.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -98,8 +105,10 @@ public class index extends javax.swing.JFrame {
         jPanel1.add(btn_negy);
         btn_negy.setBounds(30, 230, 60, 40);
 
-        btn_clear.setFont(new java.awt.Font("Tahoma", 1, 10)); // NOI18N
-        btn_clear.setText("Clear");
+        btn_clear.setBackground(new java.awt.Color(153, 153, 153));
+        btn_clear.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        btn_clear.setForeground(new java.awt.Color(255, 255, 255));
+        btn_clear.setText("C");
         btn_clear.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn_clearActionPerformed(evt);
@@ -108,7 +117,9 @@ public class index extends javax.swing.JFrame {
         jPanel1.add(btn_clear);
         btn_clear.setBounds(100, 130, 60, 40);
 
+        btn_nyolc.setBackground(new java.awt.Color(51, 51, 51));
         btn_nyolc.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        btn_nyolc.setForeground(new java.awt.Color(255, 255, 255));
         btn_nyolc.setText("8");
         btn_nyolc.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -118,7 +129,9 @@ public class index extends javax.swing.JFrame {
         jPanel1.add(btn_nyolc);
         btn_nyolc.setBounds(100, 183, 60, 40);
 
+        btn_ot.setBackground(new java.awt.Color(51, 51, 51));
         btn_ot.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        btn_ot.setForeground(new java.awt.Color(255, 255, 255));
         btn_ot.setText("5");
         btn_ot.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -128,7 +141,9 @@ public class index extends javax.swing.JFrame {
         jPanel1.add(btn_ot);
         btn_ot.setBounds(100, 233, 60, 40);
 
+        btn_egy.setBackground(new java.awt.Color(51, 51, 51));
         btn_egy.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        btn_egy.setForeground(new java.awt.Color(255, 255, 255));
         btn_egy.setText("1");
         btn_egy.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -138,7 +153,9 @@ public class index extends javax.swing.JFrame {
         jPanel1.add(btn_egy);
         btn_egy.setBounds(30, 280, 60, 40);
 
+        btn_ketto.setBackground(new java.awt.Color(51, 51, 51));
         btn_ketto.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        btn_ketto.setForeground(new java.awt.Color(255, 255, 255));
         btn_ketto.setText("2");
         btn_ketto.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -148,7 +165,9 @@ public class index extends javax.swing.JFrame {
         jPanel1.add(btn_ketto);
         btn_ketto.setBounds(100, 280, 60, 40);
 
+        btn_nulla.setBackground(new java.awt.Color(51, 51, 51));
         btn_nulla.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        btn_nulla.setForeground(new java.awt.Color(255, 255, 255));
         btn_nulla.setText("0");
         btn_nulla.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -158,7 +177,9 @@ public class index extends javax.swing.JFrame {
         jPanel1.add(btn_nulla);
         btn_nulla.setBounds(30, 330, 60, 40);
 
-        btn_osszeadas.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        btn_osszeadas.setBackground(new java.awt.Color(255, 153, 0));
+        btn_osszeadas.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        btn_osszeadas.setForeground(new java.awt.Color(255, 255, 255));
         btn_osszeadas.setText("+");
         btn_osszeadas.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -168,7 +189,9 @@ public class index extends javax.swing.JFrame {
         jPanel1.add(btn_osszeadas);
         btn_osszeadas.setBounds(240, 280, 60, 40);
 
+        btn_kilenc.setBackground(new java.awt.Color(51, 51, 51));
         btn_kilenc.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        btn_kilenc.setForeground(new java.awt.Color(255, 255, 255));
         btn_kilenc.setText("9");
         btn_kilenc.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -178,7 +201,9 @@ public class index extends javax.swing.JFrame {
         jPanel1.add(btn_kilenc);
         btn_kilenc.setBounds(170, 183, 60, 40);
 
+        btn_hat.setBackground(new java.awt.Color(51, 51, 51));
         btn_hat.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        btn_hat.setForeground(new java.awt.Color(255, 255, 255));
         btn_hat.setText("6");
         btn_hat.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -188,7 +213,9 @@ public class index extends javax.swing.JFrame {
         jPanel1.add(btn_hat);
         btn_hat.setBounds(170, 233, 60, 40);
 
+        btn_harom.setBackground(new java.awt.Color(51, 51, 51));
         btn_harom.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        btn_harom.setForeground(new java.awt.Color(255, 255, 255));
         btn_harom.setText("3");
         btn_harom.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -198,7 +225,9 @@ public class index extends javax.swing.JFrame {
         jPanel1.add(btn_harom);
         btn_harom.setBounds(170, 280, 60, 40);
 
+        btn_tizedespont.setBackground(new java.awt.Color(51, 51, 51));
         btn_tizedespont.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        btn_tizedespont.setForeground(new java.awt.Color(255, 255, 255));
         btn_tizedespont.setText(".");
         btn_tizedespont.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -208,7 +237,9 @@ public class index extends javax.swing.JFrame {
         jPanel1.add(btn_tizedespont);
         btn_tizedespont.setBounds(100, 330, 60, 40);
 
-        btn_egyenlo.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        btn_egyenlo.setBackground(new java.awt.Color(255, 153, 0));
+        btn_egyenlo.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        btn_egyenlo.setForeground(new java.awt.Color(255, 255, 255));
         btn_egyenlo.setText("=");
         btn_egyenlo.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -218,7 +249,9 @@ public class index extends javax.swing.JFrame {
         jPanel1.add(btn_egyenlo);
         btn_egyenlo.setBounds(170, 330, 60, 40);
 
-        btn_szorzas.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        btn_szorzas.setBackground(new java.awt.Color(255, 153, 0));
+        btn_szorzas.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        btn_szorzas.setForeground(new java.awt.Color(255, 255, 255));
         btn_szorzas.setText("*");
         btn_szorzas.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -228,7 +261,9 @@ public class index extends javax.swing.JFrame {
         jPanel1.add(btn_szorzas);
         btn_szorzas.setBounds(240, 130, 60, 40);
 
-        btn_osztas.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        btn_osztas.setBackground(new java.awt.Color(255, 153, 0));
+        btn_osztas.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        btn_osztas.setForeground(new java.awt.Color(255, 255, 255));
         btn_osztas.setText("/");
         btn_osztas.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -238,7 +273,9 @@ public class index extends javax.swing.JFrame {
         jPanel1.add(btn_osztas);
         btn_osztas.setBounds(240, 180, 60, 40);
 
-        btn_kivonas.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        btn_kivonas.setBackground(new java.awt.Color(255, 153, 0));
+        btn_kivonas.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        btn_kivonas.setForeground(new java.awt.Color(255, 255, 255));
         btn_kivonas.setText("-");
         btn_kivonas.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -248,7 +285,9 @@ public class index extends javax.swing.JFrame {
         jPanel1.add(btn_kivonas);
         btn_kivonas.setBounds(240, 230, 60, 40);
 
+        btn_szazalekszamitas.setBackground(new java.awt.Color(255, 153, 0));
         btn_szazalekszamitas.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        btn_szazalekszamitas.setForeground(new java.awt.Color(255, 255, 255));
         btn_szazalekszamitas.setText("%");
         btn_szazalekszamitas.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -258,7 +297,9 @@ public class index extends javax.swing.JFrame {
         jPanel1.add(btn_szazalekszamitas);
         btn_szazalekszamitas.setBounds(170, 130, 60, 40);
 
-        negativ.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        negativ.setBackground(new java.awt.Color(255, 153, 0));
+        negativ.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        negativ.setForeground(new java.awt.Color(255, 255, 255));
         negativ.setText("-/+");
         negativ.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -272,8 +313,10 @@ public class index extends javax.swing.JFrame {
         value.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
         jPanel1.add(value);
         value.setBounds(30, 20, 270, 60);
+
+        jLabel1.setBackground(new java.awt.Color(0, 0, 0));
         jPanel1.add(jLabel1);
-        jLabel1.setBounds(0, 0, 350, 390);
+        jLabel1.setBounds(20, 0, 330, 390);
 
         szamitas.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         jPanel1.add(szamitas);
