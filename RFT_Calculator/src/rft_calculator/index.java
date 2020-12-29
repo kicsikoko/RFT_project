@@ -492,8 +492,15 @@ public class index extends javax.swing.JFrame {
             }
             else if (operation == "/"){
                 result = firstnum / secondnum;
+                if(secondnum == 0)
+                {
+                    value.setText("Nullával nem lehet osztani.");
+                }
+                else
+                {
                 value.setText(""+result);
                 szamitas.setText(firstnum + " / " + secondnum + " = " + result);
+                }
             }
             else if (operation == "*"){
                 result = firstnum * secondnum;
