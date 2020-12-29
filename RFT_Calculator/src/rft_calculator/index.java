@@ -501,7 +501,7 @@ public class index extends javax.swing.JFrame {
                 {
                     value.setText("Syntax error");
                     value.setFont(font);
-                    JOptionPane.showMessageDialog(null, "You can't divide by zero. Please enter a valid number.");
+                    JOptionPane.showMessageDialog(null, "You can't divide by zero. Please enter a valid number.", "Syntax Error",JOptionPane.ERROR_MESSAGE);
                     
                 }
                 else
