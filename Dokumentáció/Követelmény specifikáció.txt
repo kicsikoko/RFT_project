@@ -55,6 +55,6 @@ a 4 alapműveleten kívül a százalékszámítást használja. Ehhez fogjuk elk
 Kivonás művelete: A megadott számok közötti különbség
 Szorzás művelete: A két megadott szám szorzata
 Osztás művelete: A két megadott szám hányadosa
-Százalék művelete: A megadott érték századértéke
+Százalék művelete: Az első értéket százalék alapnak, a második értéket százaléklábnak vesszük, így a két megadott érték szorzatának 100-ad része lesz az eredmény.
 Egyenlőség művelete: A műveletek után kapott eredmény
 Törlés művelete: A megadott érték törlése
