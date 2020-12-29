@@ -5,6 +5,7 @@
  */
 package rft_calculator;
 
+import java.awt.Font;
 import javax.swing.JOptionPane;
 
 /**
@@ -16,6 +17,7 @@ public class index extends javax.swing.JFrame {
     double firstnum, secondnum, result;
     String operation;
     double answer;
+    Font font = new Font("Tahoma", Font.ITALIC,18);
     
 
     /**
@@ -497,7 +499,10 @@ public class index extends javax.swing.JFrame {
                 result = firstnum / secondnum;
                 if(secondnum == 0)
                 {
-                    value.setText("You can't divide by zero. Please enter a valid number.");
+                    value.setText("Syntax error");
+                    value.setFont(font);
+                    JOptionPane.showMessageDialog(null, "You can't divide by zero. Please enter a valid number.");
+                    
                 }
                 else
                 {
