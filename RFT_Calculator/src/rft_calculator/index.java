@@ -318,6 +318,7 @@ public class index extends javax.swing.JFrame {
         jPanel1.add(jLabel1);
         jLabel1.setBounds(20, 0, 330, 390);
 
+        szamitas.setForeground(new java.awt.Color(255, 153, 0));
         szamitas.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         jPanel1.add(szamitas);
         szamitas.setBounds(34, 84, 260, 20);
@@ -329,7 +330,7 @@ public class index extends javax.swing.JFrame {
             }
         });
         jPanel1.add(btn_on);
-        btn_on.setBounds(30, 100, 45, 25);
+        btn_on.setBounds(30, 100, 39, 23);
 
         btn_off.setText("Off");
         btn_off.addActionListener(new java.awt.event.ActionListener() {
@@ -338,7 +339,7 @@ public class index extends javax.swing.JFrame {
             }
         });
         jPanel1.add(btn_off);
-        btn_off.setBounds(70, 100, 50, 25);
+        btn_off.setBounds(70, 100, 50, 23);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
