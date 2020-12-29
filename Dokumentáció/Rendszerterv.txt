@@ -58,6 +58,7 @@ Fejlesztői eszközök:
 	-Trello
 
 7. Absztrakt domain modell
+A rendszerünk nem tartalmaz ilyen modellt.
 
 8. Architekturális terv
 A rendszerünk nem használ adatbázis szervert, ezért szimplán csak frontend fejlesztést végzünk.
