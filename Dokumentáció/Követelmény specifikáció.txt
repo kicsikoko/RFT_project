@@ -31,7 +31,7 @@ négy alapműveletet, illetve a százalék műveletét.
 
 
 7. Igényelt üzleti folyamatok
-A megrendelő a bekapcsoló gombon keresztül bekapcsolja a számológépe, és az adott műveletet amit szeretne azt 
+A megrendelő a bekapcsoló gombon keresztül bekapcsolja a számológépet, és az adott műveletet amit szeretne azt 
 elkezdi a megadott számokkal. 
 
 8. Követelménylista (KÖTELEZŐ!)
