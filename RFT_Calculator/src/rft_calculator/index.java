@@ -525,13 +525,7 @@ public class index extends javax.swing.JFrame {
         btn_kilenc.setEnabled(true);
         btn_nulla.setEnabled(true);
         negativ.setEnabled(true);
-        if(btn_on.isSelected())
-        {
-            btn_off.setEnabled(true);
-            btn_on.setSelected(false);
-        }else {
-            btn_on.setEnabled(false);
-        }
+        btn_off.setEnabled(true);
         
     }//GEN-LAST:event_btn_onActionPerformed
 
@@ -557,13 +551,7 @@ public class index extends javax.swing.JFrame {
         btn_kilenc.setEnabled(false);
         btn_nulla.setEnabled(false);
         negativ.setEnabled(false);
-        if(btn_off.isSelected())
-        {
-            btn_on.setEnabled(true);
-            btn_off.setSelected(false);
-        }else {
-            btn_off.setEnabled(false);
-        }
+        btn_on.setEnabled(true);
     }//GEN-LAST:event_btn_offActionPerformed
 
     /**
