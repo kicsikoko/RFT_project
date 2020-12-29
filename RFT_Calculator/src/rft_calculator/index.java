@@ -504,6 +504,7 @@ public class index extends javax.swing.JFrame {
     }//GEN-LAST:event_btn_szorzasActionPerformed
 
     private void btn_onActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_onActionPerformed
+
         btn_clear.setEnabled(true);
         btn_torles.setEnabled(true);
         btn_egyenlo.setEnabled(true);
@@ -524,7 +525,14 @@ public class index extends javax.swing.JFrame {
         btn_kilenc.setEnabled(true);
         btn_nulla.setEnabled(true);
         negativ.setEnabled(true);
-        btn_off.setEnabled(true);
+        if(btn_on.isSelected())
+        {
+            btn_off.setEnabled(true);
+            btn_on.setSelected(false);
+        }else {
+            btn_on.setEnabled(false);
+        }
+        
     }//GEN-LAST:event_btn_onActionPerformed
 
     private void btn_offActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_offActionPerformed
@@ -549,7 +557,13 @@ public class index extends javax.swing.JFrame {
         btn_kilenc.setEnabled(false);
         btn_nulla.setEnabled(false);
         negativ.setEnabled(false);
-        btn_off.setEnabled(false);
+        if(btn_off.isSelected())
+        {
+            btn_on.setEnabled(true);
+            btn_off.setSelected(false);
+        }else {
+            btn_off.setEnabled(false);
+        }
     }//GEN-LAST:event_btn_offActionPerformed
 
     /**
