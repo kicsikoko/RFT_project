@@ -44,6 +44,7 @@ K06:Törlés művelete: A felhasználó a beviteli mezőből képes kitörölni 
 K07:Clear művelete: A felhasználó a teljes beviteli mező értékét törli
 K08:Beviteli mező: A felhasználó képes számokat bevinni a műveletekhez
 K09:Eredmény mező: A felhasználó látja a bevitt műveleteket
+K10:On/Off gombok: A felhasználó ki-be tudja kapcsolni a számológépet
 
 9. Riportok
 A megrendelő olyan számológépet szeretett volna, mellyel megkönnyíti a mindennapi életét, hiszen legtöbbször
