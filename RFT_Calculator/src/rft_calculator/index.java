@@ -494,7 +494,7 @@ public class index extends javax.swing.JFrame {
                 result = firstnum / secondnum;
                 if(secondnum == 0)
                 {
-                    value.setText("Nullával nem lehet osztani.");
+                    value.setText("You can't divide by zero. Please enter a valid number.");
                 }
                 else
                 {
