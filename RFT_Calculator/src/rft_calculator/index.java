@@ -65,7 +65,7 @@ public class index extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Számológép");
 
-        jPanel1.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel1.setBackground(new java.awt.Color(0, 0, 0));
         jPanel1.setLayout(null);
 
         btn_torles.setBackground(new java.awt.Color(153, 153, 153));
@@ -316,7 +316,7 @@ public class index extends javax.swing.JFrame {
 
         jLabel1.setBackground(new java.awt.Color(0, 0, 0));
         jPanel1.add(jLabel1);
-        jLabel1.setBounds(0, 30, 350, 390);
+        jLabel1.setBounds(0, 0, 350, 390);
 
         szamitas.setForeground(new java.awt.Color(255, 153, 0));
         szamitas.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
