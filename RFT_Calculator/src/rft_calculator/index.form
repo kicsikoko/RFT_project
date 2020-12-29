@@ -529,6 +529,9 @@
         </Component>
         <Component class="javax.swing.JRadioButton" name="btn_on">
           <Properties>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="99" red="ff" type="rgb"/>
+            </Property>
             <Property name="text" type="java.lang.String" value="On"/>
           </Properties>
           <Events>
@@ -542,6 +545,9 @@
         </Component>
         <Component class="javax.swing.JRadioButton" name="btn_off">
           <Properties>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="99" red="ff" type="rgb"/>
+            </Property>
             <Property name="text" type="java.lang.String" value="Off"/>
           </Properties>
           <Events>

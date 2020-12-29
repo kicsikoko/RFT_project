@@ -323,6 +323,7 @@ public class index extends javax.swing.JFrame {
         jPanel1.add(szamitas);
         szamitas.setBounds(34, 84, 260, 20);
 
+        btn_on.setForeground(new java.awt.Color(255, 153, 0));
         btn_on.setText("On");
         btn_on.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -332,6 +333,7 @@ public class index extends javax.swing.JFrame {
         jPanel1.add(btn_on);
         btn_on.setBounds(30, 100, 39, 23);
 
+        btn_off.setForeground(new java.awt.Color(255, 153, 0));
         btn_off.setText("Off");
         btn_off.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -579,6 +581,7 @@ public class index extends javax.swing.JFrame {
         negativ.setEnabled(true);
         btn_off.setSelected(false);
         btn_on.setEnabled(false);
+        value.setEditable(true);
         
     }//GEN-LAST:event_btn_onActionPerformed
 
@@ -607,6 +610,9 @@ public class index extends javax.swing.JFrame {
         negativ.setEnabled(false);
         btn_on.setSelected(false);
         btn_off.setEnabled(false);
+        value.setText("");
+        value.setEditable(false);
+        szamitas.setText("");
     }//GEN-LAST:event_btn_offActionPerformed
 
     /**
