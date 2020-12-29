@@ -504,7 +504,7 @@ public class index extends javax.swing.JFrame {
     }//GEN-LAST:event_btn_szorzasActionPerformed
 
     private void btn_onActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_onActionPerformed
-
+        btn_off.setEnabled(true);
         btn_clear.setEnabled(true);
         btn_torles.setEnabled(true);
         btn_egyenlo.setEnabled(true);
@@ -526,11 +526,13 @@ public class index extends javax.swing.JFrame {
         btn_nulla.setEnabled(true);
         negativ.setEnabled(true);
         btn_off.setSelected(false);
+        btn_on.setEnabled(false);
         
     }//GEN-LAST:event_btn_onActionPerformed
 
     private void btn_offActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_offActionPerformed
         // TODO add your handling code here:
+        btn_on.setEnabled(true);
         btn_clear.setEnabled(false);
         btn_torles.setEnabled(false);
         btn_egyenlo.setEnabled(false);
@@ -552,6 +554,7 @@ public class index extends javax.swing.JFrame {
         btn_nulla.setEnabled(false);
         negativ.setEnabled(false);
         btn_on.setSelected(false);
+        btn_off.setEnabled(false);
     }//GEN-LAST:event_btn_offActionPerformed
 
     /**
