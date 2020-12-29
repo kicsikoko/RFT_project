@@ -23,6 +23,7 @@ public class index extends javax.swing.JFrame {
      */
     public index() {
         initComponents();
+        btn_on.setEnabled(false);
     }
 
     /**
@@ -285,7 +286,7 @@ public class index extends javax.swing.JFrame {
             }
         });
         jPanel1.add(btn_on);
-        btn_on.setBounds(30, 100, 39, 23);
+        btn_on.setBounds(30, 100, 45, 25);
 
         btn_off.setText("Off");
         btn_off.addActionListener(new java.awt.event.ActionListener() {
@@ -294,7 +295,7 @@ public class index extends javax.swing.JFrame {
             }
         });
         jPanel1.add(btn_off);
-        btn_off.setBounds(70, 100, 50, 23);
+        btn_off.setBounds(70, 100, 50, 25);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
