@@ -64,3 +64,10 @@ Textfield elhelyezése -->Beviteli mező
 Label elhelyezése -->Eredmény mező
 
 11. Fogalomszótár
+Összeadás művelete: A két megadott szám összege
+Kivonás művelete: A megadott számok közötti különbség
+Szorzás művelete: A két megadott szám szorzata
+Osztás művelete: A két megadott szám hányadosa
+Százalék művelete: Az első értéket százalék alapnak, a második értéket százaléklábnak vesszük, így a két megadott érték szorzatának 100-ad része lesz az eredmény.
+Egyenlőség művelete: A műveletek után kapott eredmény
+Törlés művelete: A megadott érték törlése
