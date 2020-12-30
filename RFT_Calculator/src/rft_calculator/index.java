@@ -74,9 +74,6 @@ public class index extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Számológép");
-        setBackground(new java.awt.Color(0, 0, 0));
-        setPreferredSize(new java.awt.Dimension(355, 395));
-        setSize(new java.awt.Dimension(0, 0));
 
         jPanel1.setBackground(new java.awt.Color(0, 0, 0));
         jPanel1.setLayout(null);
@@ -140,7 +137,7 @@ public class index extends javax.swing.JFrame {
             }
         });
         jPanel1.add(btn_nyolc);
-        btn_nyolc.setBounds(100, 183, 60, 40);
+        btn_nyolc.setBounds(100, 180, 60, 40);
 
         btn_ot.setBackground(new java.awt.Color(51, 51, 51));
         btn_ot.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
@@ -152,7 +149,7 @@ public class index extends javax.swing.JFrame {
             }
         });
         jPanel1.add(btn_ot);
-        btn_ot.setBounds(100, 233, 60, 40);
+        btn_ot.setBounds(100, 230, 60, 40);
 
         btn_egy.setBackground(new java.awt.Color(51, 51, 51));
         btn_egy.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
@@ -212,7 +209,7 @@ public class index extends javax.swing.JFrame {
             }
         });
         jPanel1.add(btn_kilenc);
-        btn_kilenc.setBounds(170, 183, 60, 40);
+        btn_kilenc.setBounds(170, 180, 60, 40);
 
         btn_hat.setBackground(new java.awt.Color(51, 51, 51));
         btn_hat.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
@@ -224,7 +221,7 @@ public class index extends javax.swing.JFrame {
             }
         });
         jPanel1.add(btn_hat);
-        btn_hat.setBounds(170, 233, 60, 40);
+        btn_hat.setBounds(170, 230, 60, 40);
 
         btn_harom.setBackground(new java.awt.Color(51, 51, 51));
         btn_harom.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
@@ -325,7 +322,7 @@ public class index extends javax.swing.JFrame {
         value.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         value.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
         jPanel1.add(value);
-        value.setBounds(30, 20, 280, 60);
+        value.setBounds(30, 20, 270, 60);
 
         jLabel1.setBackground(new java.awt.Color(0, 0, 0));
         jPanel1.add(jLabel1);
@@ -360,7 +357,9 @@ public class index extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 355, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addGap(0, 0, Short.MAX_VALUE)
+                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 355, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
