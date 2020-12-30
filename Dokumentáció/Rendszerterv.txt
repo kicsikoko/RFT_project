@@ -30,6 +30,9 @@ d, Számológép felületének létrehozása:
 
 e, Számológép funkcióinak kódolása:
 	Szereplők: csapat tagjai
+	Prioritás: 1
+	Becslés: 2 óra
+	Eltelt: 2 óra
 	
 
 3. Üzleti folyamatok modellje
