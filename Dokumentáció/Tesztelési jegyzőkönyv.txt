@@ -1,4 +1,8 @@
-Teszt szám | Tesztekő neve | Tesztelés ideje | Milyen tipusú teszt?  és Mit ? | Sikeresség
+Teszt szám | Tesztelő neve | Tesztelés ideje | Milyen tipusú teszt?  és Mit ? | Sikeresség
 ____________________________________________________________________________________________
 1 	   |Szicsák Bence  | 2020.12.30      | Unit 0 gomb                    | Sikeres 
+--------------------------------------------------------------------------------------------
+2 	   |Szicsák Bence  | 2020.12.30      | Unit 1 gomb                    | Sikeres 
+--------------------------------------------------------------------------------------------
+3	   |Szicsák Bence  | 2020.12.30      | Unit 2 gomb                    | Sikeres 
 --------------------------------------------------------------------------------------------
