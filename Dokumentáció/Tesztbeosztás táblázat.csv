@@ -1,0 +1,33 @@
+﻿Teszt szám;Tesztelő neve:;Tesztelés ideje;Teszt típusa;;;
+;;;Gombok tesztelése;Unit ;Mit?;Sikeresség
+1;Ungi Keve;2020.12.29;x;Igen;0 gomb;Sikerült
+2;Ungi Keve;2020.12.29;x;Igen;1 gomb;Sikerült
+3;Ungi Keve;2020.12.29;x;Igen;2 gomb;Sikerült
+4;Ungi Keve;2020.12.29;x;Igen;3 gomb;Sikerült
+5;Boros Lili;2020.12.29;x;Igen;4 gomb;Sikerült
+6;Boros Lili;2020.12.29;x;Igen;5 gomb;Sikerült
+7;Boros Lili;2020.12.29;x;Igen;6 gomb;Sikerült
+8;Boros Lili;2020.12.29;x;Igen;7 gomb;Sikerült
+9;Szicsák Bence;2020.12.29;x;Igen;8 gomb;Sikerült
+10;Szicsák Bence;2020.12.29;x;Igen;9 gomb;Sikerült
+11;Szicsák Bence;2020.12.29;x;Igen;Törlés gomb;Sikerült
+12;Szicsák Bence;2020.12.29;x;Igen;Egész törles;Sikerült
+13;Nagy Dávid;2020.12.29;x;Igen;% gomb;Sikerült
+14;Nagy Dávid;2020.12.29;x;Igen;* gomb;Sikerült
+15;Nagy Dávid;2020.12.29;x;Igen;/ gomb;Sikerült
+16;Nagy Dávid;2020.12.29;x;Igen; = gomb;Sikerült
+17;Kovács Bence;2020.12.29;x;Igen;összeadás;Sikerült
+18;Kovács Bence;2020.12.29;x;Igen;kivonás;Sikerült
+19;Kovács Bence;2020.12.29;x;Igen;negatív;Sikerült
+20;Kovács Bence;2020.12.29;x;Igen;tizedespont;Sikerült
+21;;;;;;Nem sikerült
+22;;;;;;Nem sikerült
+23;;;;;;Nem sikerült
+24;;;;;;Nem sikerült
+25;;;;;;Nem sikerült
+26;;;;;;Nem sikerült
+27;;;;;;Nem sikerült
+28;;;;;;Nem sikerült
+29;;;;;;Nem sikerült
+30;;;;;;Nem sikerült
+;;;;;;
