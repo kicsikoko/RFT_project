@@ -6,6 +6,9 @@
 package rft_calculator;
 
 import java.awt.Font;
+import java.net.URL;
+import javax.swing.ImageIcon;
+import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 
 /**
@@ -18,6 +21,9 @@ public class index extends javax.swing.JFrame {
     String operation;
     double answer;
     Font font = new Font("Tahoma", Font.ITALIC,18);
+    JFrame frame;
+    ImageIcon icon;
+    
     
 
     /**
@@ -26,6 +32,8 @@ public class index extends javax.swing.JFrame {
     public index() {
         initComponents();
         btn_on.setEnabled(false);
+        icon = new ImageIcon("icons/calc.png");
+        setIconImage(icon.getImage());
     }
 
     /**
@@ -66,6 +74,9 @@ public class index extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Számológép");
+        setBackground(new java.awt.Color(0, 0, 0));
+        setPreferredSize(new java.awt.Dimension(355, 395));
+        setSize(new java.awt.Dimension(0, 0));
 
         jPanel1.setBackground(new java.awt.Color(0, 0, 0));
         jPanel1.setLayout(null);
@@ -314,7 +325,7 @@ public class index extends javax.swing.JFrame {
         value.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         value.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
         jPanel1.add(value);
-        value.setBounds(30, 20, 270, 60);
+        value.setBounds(30, 20, 280, 60);
 
         jLabel1.setBackground(new java.awt.Color(0, 0, 0));
         jPanel1.add(jLabel1);
@@ -349,9 +360,7 @@ public class index extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addGap(0, 0, Short.MAX_VALUE)
-                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 355, javax.swing.GroupLayout.PREFERRED_SIZE))
+            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 355, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
