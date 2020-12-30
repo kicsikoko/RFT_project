@@ -73,10 +73,12 @@ A gombok illetve a panel dizájnját elkészítjük.
 A gombokhoz Action-t adunk ami azt fogja megmondani, hogy az adott gomb lenyomására mi történjen.
 
 11.Tesztterv
-Unit teszt:
-Minden gomb Action-jének a megírása után leteszteljük, hogy megfelelően működik-e.
-Alfa teszt:
-Ha a gombok Action-jét befejeztük egy tesztet hajtunk végre, hogy működik-e minden rendesen.
+A tesztelések célja, hogy vizsgáljon meg a számológépen minden gombot, hogy megfelően működik-e.
+A számok illetve a műveletek lenyumásukkor megjelennek a Label-ben.
+Az egyenlőség gomb megnyomása után a számológép a Label-ben levő műveletet helyesen végezze el.
+Az On/Off gombok megfelően működjenek.
+Unit tesztek:
+Minden gomb Action-jét leteszteljük, hogy megfelelően működnek-e.
 
 12.Telepítési terv
 Ha webes felületről(Google Chrome, Opera, Safari stb) szeretné letölteni akkor,akkor nem szükséges más illesztő
