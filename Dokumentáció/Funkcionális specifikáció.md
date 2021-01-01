@@ -34,8 +34,7 @@ négy alapműveletet, illetve a százalék műveletét.
 
 5. Igényelt üzleti folyamatok modellje
 
-A megrendelő a bekapcsoló gombon keresztül bekapcsolja a számológépet, és az adott műveletet amit szeretne azt 
-elkezdi a megadott számokkal.
+A megrendelő a bekapcsoló gombon keresztül bekapcsolja a számológépet, és az adott műveletet amit szeretne azt elkezdi a megadott számokkal.
 
 6. Használati esetek
 Ha a felhasználó nem tud fejben számolni vagy csak gyakorolni szeretné a számolást, akkor ezen a felületen
@@ -66,3 +65,11 @@ Textfield elhelyezése -->Beviteli mező
 Label elhelyezése -->Eredmény mező
 
 11. Fogalomszótár
+
+Összeadás művelete: A két megadott szám összege
+Kivonás művelete: A megadott számok közötti különbség
+Szorzás művelete: A két megadott szám szorzata
+Osztás művelete: A két megadott szám hányadosa
+Százalék művelete: Az első értéket százalék alapnak, a második értéket százaléklábnak vesszük, így a két megadott érték szorzatának 100-ad része lesz az eredmény.
+Egyenlőség művelete: A műveletek után kapott eredmény
+Törlés művelete: A megadott érték törlése
