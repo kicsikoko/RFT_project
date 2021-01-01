@@ -38,11 +38,13 @@ e, Számológép funkcióinak kódolása:
 3. Üzleti folyamatok modellje
 
 4. Követelmények
+
 Az alapvető matematikai műveletek kiszámításában nyújt segítséget. 
 Funkcionális követelmények:
 Teljesíteni tud összeadást, kivonást, szorzást, osztást. Illetve ezen műveletek végeredményét mutatja. 
 
 5. Funkcionális terv
+
 Rendszerszereplők:
 	Felhasználó
 
@@ -52,6 +54,7 @@ Rendszerhasználati esetek és lefutásaik:
 		Képes elvégezni rajta a 4 alapműveletet és a százalékszámítást.	
 
 6. Fizikai környezet
+
 Az alkalmazás windows platformra készül, majd továbbá szeretnénk android készülékre is fejleszteni.
 Nincsenek megvásárolt komponenseink.
 Fejlesztői eszközök:
@@ -61,21 +64,26 @@ Fejlesztői eszközök:
 	-Trello
 
 7. Absztrakt domain modell
+
 A rendszerünk nem tartalmaz ilyen modellt.
 
 8. Architekturális terv
+
 A rendszerünk nem használ adatbázis szervert, ezért szimplán csak frontend fejlesztést végzünk.
 
 9. Adatbázis terv
+
 Nem használunk adatbázis szervert a rendszerünkhöz.
 
 10.Implementációs terv
+
 A felület Java nyelven fog készülni a NetBeans 8.2 környezet segítségével.
 Egy panelen helyezzük el a szükséges gombokat(Button) illetve a beviteli mezőt(Label).
 A gombok illetve a panel dizájnját elkészítjük.
 A gombokhoz Action-t adunk ami azt fogja megmondani, hogy az adott gomb lenyomására mi történjen.
 
 11.Tesztterv
+
 A tesztelések célja, hogy vizsgáljon meg a számológépen minden gombot, hogy megfelően működik-e.
 A számok illetve a műveletek lenyumásukkor megjelennek a Label-ben.
 Az egyenlőség gomb megnyomása után a számológép a Label-ben levő műveletet helyesen végezze el.
@@ -84,6 +92,7 @@ Unit tesztek:
 Minden gomb Action-jét leteszteljük, hogy megfelelően működnek-e.
 
 12.Telepítési terv
+
 Ha webes felületről(Google Chrome, Opera, Safari stb) szeretné letölteni akkor,akkor nem szükséges más illesztő
 program. 
 Ellenkező esetben ha Androidos vagy IOS platformról szeretné letölteni akkor a megfelelő "Store"-ból
@@ -92,5 +101,6 @@ akkor engedélyezni kell önnek  "Harmadik féltől származó tartalmakat" a be
 kiterjesztésű elemet a készülékre rakja majd futassa.   
 
 13.Karbantartási terv
+
 A felhasználók hiba jelentéseit folyamatosan figyeljük és javításokat adunk ki.
 Egy éven belül új műveleteket, funkciókat szeretnénk adni a számológéphez.
