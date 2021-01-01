@@ -34,7 +34,7 @@ négy alapműveletet, illetve a százalék műveletét.
 A megrendelő a bekapcsoló gombon keresztül bekapcsolja a számológépet, és az adott műveletet amit szeretne azt 
 elkezdi a megadott számokkal. 
 
-8. Követelménylista (KÖTELEZŐ!)
+8. Követelménylista
 K01:Összeadás művelete: A felhasználó számokat tud összadni
 K02:Kivonás művelete: A felhasználó számokat tud kivonni egymásból
 K03:Szorzás művelete: A felhasználó számokat tud összeszorozni
