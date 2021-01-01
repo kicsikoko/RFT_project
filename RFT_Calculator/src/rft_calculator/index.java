@@ -319,6 +319,7 @@ public class index extends javax.swing.JFrame {
         jPanel1.add(negativ);
         negativ.setBounds(240, 330, 60, 40);
 
+        value.setEditable(false);
         value.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         value.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
         jPanel1.add(value);
