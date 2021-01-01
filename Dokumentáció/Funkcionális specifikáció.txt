@@ -1,4 +1,4 @@
-Követelmény specifikáció
+Funkcionális specifikáció
 
 1.Áttekintés
 
