@@ -64,6 +64,7 @@ Textfield elhelyezése -->Beviteli mező
 Label elhelyezése -->Eredmény mező
 
 11. Fogalomszótár
+
 Összeadás művelete: A két megadott szám összege
 Kivonás művelete: A megadott számok közötti különbség
 Szorzás művelete: A két megadott szám szorzata
