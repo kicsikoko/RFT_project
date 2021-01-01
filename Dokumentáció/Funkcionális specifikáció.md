@@ -32,7 +32,6 @@ K10:On/Off gombok: A felhasználó ki-be tudja kapcsolni a számológépet
 A programunkkal szeretnénk segíteni a diákoknak, hogy könnyebben megvalósíthassák a
 négy alapműveletet, illetve a százalék műveletét.
 
-![alt text](https://github.com/kicsikoko/RFT_project/blob/main/Dokumentáció/pictures/üzletimodell.PNG)
 
 5. Igényelt üzleti folyamatok modellje
 
